@@ -109,7 +109,7 @@ dist
 .prettierrc
 stylelint.config.js
 nuxt.config.js
-yarn.lock
+#yarn.lock
 
 .idea/
 .idea
