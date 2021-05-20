@@ -102,3 +102,16 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Linting and editor stuff
+.editorconfig
+.eslintrc.js
+.prettierrc
+stylelint.config.js
+nuxt.config.js
+yarn.lock
+
+.idea/
+.idea
+aws.xml
+modules.xml
