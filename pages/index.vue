@@ -1,14 +1,17 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
-      <h1 class="title">3aOrelha</h1>
+      <img src="@/assets/logos/logo_temp.png" alt="logo 3a Orelha" />
+      <!--      <Logo />-->
+
+      <h1 class="title">3ªOrelha</h1>
+      <h2 class="subtitle">Rede Micelial InterPlanetária</h2>
       <div class="links">
-        <a
+<!--        <a
           href="https://nuxtjs.org/"
           target="_blank"
           rel="noopener noreferrer"
-          class="button--green"
+          class="button&#45;&#45;green"
         >
           Documentation
         </a>
@@ -16,20 +19,21 @@
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
           rel="noopener noreferrer"
-          class="button--grey"
+          class="button&#45;&#45;grey"
         >
           GitHub
         </a>
+      -->
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+// export default {}
 </script>
 
-<style>
+<style lang="postcss">
 /* Sample `apply` at-rules with Tailwind CSS
 .container {
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
@@ -42,6 +46,7 @@ export default {}
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: #466c46;
 }
 
 .title {
@@ -49,15 +54,15 @@ export default {}
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
+  font-size: 125px;
+  color: rgb(92, 205, 217);
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
   font-size: 42px;
-  color: #526488;
+  color: #ddd9ca;
   word-spacing: 5px;
   padding-bottom: 15px;
 }
