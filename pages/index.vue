@@ -55,14 +55,16 @@
 </template>
 
 <script>
-import Card from "@/components/Card"
-import Radio from "@/components/Radio"
+// import Card from "@/components/Card"
+// import Radio from "@/components/Radio"
 
 export default {
+/*
   components: {
     Radio,
     Card,
   },
+*/
   /*
   computed: {
     mode() {
