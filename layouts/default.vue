@@ -1,13 +1,35 @@
 <template>
-  <div>
+  <div
+    class="
+      w-full
+      min-h-screen
+      m-0
+      p-0
+      bg-gray-200
+      dark:bg-verde-preto dark:text-gray-200
+      mx-auto
+    "
+  >
+    <!--    <TheHeader /> -->
     <Nuxt />
   </div>
 </template>
 
 <style>
+/*
+.dark-mode {
+  @apply text-white bg-verde-dark;
+}
+
+.light-mode {
+  @apply bg-verde-light text-black;
+}
+*/
+
+/*
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -16,6 +38,7 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
+*/
 
 *,
 *::before,
@@ -24,6 +47,7 @@ html {
   margin: 0;
 }
 
+/*
 .button--green {
   display: inline-block;
   border-radius: 4px;
@@ -52,4 +76,5 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+*/
 </style>

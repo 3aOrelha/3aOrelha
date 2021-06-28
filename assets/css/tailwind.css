@@ -1,0 +1,14 @@
+@import './palette.css';
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.sepia {
+  @apply bg-sepia-light;
+  @apply text-sepia-dark;
+}
+
+.dark {
+  @apply bg-verde-dark;
+  @apply text-gray-200;
+}
