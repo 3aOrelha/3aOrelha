@@ -108,7 +108,7 @@ dist
 .eslintrc.js
 .prettierrc
 stylelint.config.js
-nuxt.config.js
+#nuxt.config.js
 #yarn.lock
 
 .idea/
