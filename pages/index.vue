@@ -4,6 +4,7 @@
       <img class="h-10" src="@/assets/logo-hor.svg" alt="3a Orelha" />
     </div>
     -->
+    <Radio />
     <Card />
     <!--    <div>
           <fa :icon="['fas', 'adjust']" />
@@ -54,11 +55,13 @@
 </template>
 
 <script>
-import Card from "@/components/Card";
+import Card from "@/components/Card"
+import Radio from "@/components/Radio"
 
 export default {
   components: {
-    Card
+    Radio,
+    Card,
   },
   /*
   computed: {
