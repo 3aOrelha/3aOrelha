@@ -1,11 +1,10 @@
 <template>
-  <div class="">
-    <div class="pl-4 py-4">
+  <div>
+    <!--    <div class="pl-4 py-4">
       <img class="h-10" src="@/assets/logo-hor.svg" alt="3a Orelha" />
     </div>
+    -->
     <Card />
-    <Radio />
-    <ColorModePicker />
     <!--    <div>
           <fa :icon="['fas', 'adjust']" />
           &lt;!&ndash;            <fa icon="dollar-sign" style="font-size: 30px" />
@@ -75,6 +74,7 @@ export default {
 }
 </script>
 
+<!--
 <style lang="postcss" scoped>
 .badge {
   @apply inline-block bg-gray-200 dark:bg-gray-700  rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-200;
@@ -84,3 +84,4 @@ export default {
   }
 }
 </style>
+-->

@@ -12,6 +12,6 @@
 
 <script>
 export default {
-  name: "radio",
+  name: "Radio",
 }
 </script>
