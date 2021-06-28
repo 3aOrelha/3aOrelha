@@ -1,11 +1,10 @@
 <template>
   <div>
-    <!--    <div class="pl-4 py-4">
+    <div class="pl-4 py-4">
       <img class="h-10" src="@/assets/logo-hor.svg" alt="3a Orelha" />
     </div>
-    -->
-    <Radio />
     <Card />
+    <ColorModePicker />
     <!--    <div>
           <fa :icon="['fas', 'adjust']" />
           &lt;!&ndash;            <fa icon="dollar-sign" style="font-size: 30px" />
@@ -59,12 +58,12 @@
 // import Radio from "@/components/Radio"
 
 export default {
-/*
-  components: {
-    Radio,
-    Card,
-  },
-*/
+  /*
+    components: {
+      Radio,
+      Card,
+    },
+  */
   /*
   computed: {
     mode() {

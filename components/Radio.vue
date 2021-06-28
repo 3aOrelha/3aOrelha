@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>RadioGaleria</h1>
     <iframe
       src="https://orelha.xyz/public/3a_orelha/embed?theme=dark"
       allowtransparency="true"
