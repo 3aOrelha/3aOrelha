@@ -50,7 +50,7 @@ export default {
   },
 
   async fetch() {
-    this.station = await fetch(
+    this.nowPlaying = await fetch(
       "https://orelha.xyz/api/nowplaying/3a_orelha"
     ).then((res) => res.json())
   },
