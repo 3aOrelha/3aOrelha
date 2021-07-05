@@ -14,15 +14,15 @@
         overflow-hidden
       "
     >
-      <!--      <img
-              class="w-full"
-              :src="station.now_playing.song.art"
-              alt="Sunset in the mountains"
-            />
-            -->
+      <img
+        class="w-full"
+        :src="nowPlaying.now_playing.song.art"
+        alt="Album cover"
+      />
+
       <div class="px-4 py-4 pb-2">
         <h1 class="font-bold text-xl mb-2 text-verde-dark dark:text-white">
-          {{ station.now_playing.song.title }}
+          {{ nowPlaying.now_playing.song.title }}
         </h1>
         <Radio />
       </div>
@@ -44,20 +44,11 @@ import NchanSubscriber from "nchan"
 export default {
   data() {
     return {
-      station: {},
       messageRxd: "",
       nowPlaying: {},
     }
   },
 
-  /*
-    activated() {
-      // Call fetch again if last fetch more than 30 sec ago
-      if (this.$fetchState.timestamp <= Date.now() - 10000) {
-        this.$fetch()
-      }
-    },
-  */
   async fetch() {
     this.station = await fetch(
       "https://orelha.xyz/api/nowplaying/3a_orelha"
@@ -68,25 +59,12 @@ export default {
   },
   mounted() {
     const sub = new NchanSubscriber(
-      "https://orelha.xyz/api/nowplaying/3a_orelha"
+      "https://orelha.xyz/api/live/nowplaying/3a_orelha"
     )
-    sub.on("message", function (message, message_metadata) {
-      // Do something with the Now Playing data.
+    sub.on("message", (message) => {
       this.nowPlaying = JSON.parse(message)
     })
     sub.start()
   },
-  /*
-    methods: {
-      getMessage() {
-        return new Promise((resolve) => {
-          this.socket.emit("getMessage", { id: "30b777f6093f40f2" }, (resp) => {
-            this.messageRxd = resp
-            resolve()
-          })
-        })
-      },
-    },
-  */
 }
 </script>
