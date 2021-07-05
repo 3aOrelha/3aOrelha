@@ -13,7 +13,7 @@
     "
   >
     <!--    <TheHeader /> -->
-    <Nuxt />
+    <Nuxt keep-alive />
   </div>
 </template>
 

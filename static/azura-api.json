@@ -1,0 +1,332 @@
+{
+  "station": {
+    "id": 1,
+    "name": "3a-Orelha",
+    "shortcode": "3a_orelha",
+    "description": "Fluxos em uma galeria sonora fractal de paisagens que contem paisagens.",
+    "frontend": "icecast",
+    "backend": "liquidsoap",
+    "listen_url": "https://orelha.xyz:8000/radio.mp3",
+    "url": "3a-orelha.space",
+    "public_player_url": "https://orelha.xyz/public/3a_orelha",
+    "playlist_pls_url": "https://orelha.xyz/public/3a_orelha/playlist.pls",
+    "playlist_m3u_url": "https://orelha.xyz/public/3a_orelha/playlist.m3u",
+    "is_public": true,
+    "mounts": [
+      {
+        "path": "/radio.mp3",
+        "is_default": true,
+        "id": 1,
+        "name": "192kbps MP3",
+        "url": "https://orelha.xyz:8000/radio.mp3",
+        "bitrate": 192,
+        "format": "mp3",
+        "listeners": {
+          "total": 1,
+          "unique": 1,
+          "current": 1
+        }
+      }
+    ],
+    "remotes": []
+  },
+  "listeners": {
+    "total": 1,
+    "unique": 1,
+    "current": 1
+  },
+  "live": {
+    "is_live": false,
+    "streamer_name": "",
+    "broadcast_start": null
+  },
+  "now_playing": {
+    "elapsed": 156,
+    "remaining": 0,
+    "sh_id": 158,
+    "played_at": 1624935178,
+    "duration": 0,
+    "playlist": "",
+    "streamer": "",
+    "is_request": false,
+    "song": {
+      "id": "2b6f8781a15eae75b50729755a01000f",
+      "text": "Gil Fuser - jack capture 02",
+      "artist": "Gil Fuser",
+      "title": "jack capture 02",
+      "album": "",
+      "genre": "",
+      "lyrics": "",
+      "art": "https://orelha.xyz/static/img/generic_song.jpg",
+      "custom_fields": []
+    }
+  },
+  "playing_next": {
+    "cued_at": 1624935624,
+    "duration": 617,
+    "playlist": "Fuser Experimentos",
+    "is_request": false,
+    "song": {
+      "id": "b7b15a30f8c587cbd34a47eff609e193",
+      "text": " - jack capture 03",
+      "artist": "",
+      "title": "jack capture 03",
+      "album": "",
+      "genre": "Experimental",
+      "lyrics": "",
+      "art": "https://orelha.xyz/api/station/1/art/65ce2dff00897b6048bc095c-1624932189.jpg",
+      "custom_fields": []
+    }
+  },
+  "song_history": [
+    {
+      "sh_id": 157,
+      "played_at": 1624935052,
+      "duration": 126,
+      "playlist": "",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "acde477c85e9ec846a03063642aabf80",
+        "text": "Gil Fuser - jack capture 01",
+        "artist": "Gil Fuser",
+        "title": "jack capture 01",
+        "album": "",
+        "genre": "",
+        "lyrics": "",
+        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 156,
+      "played_at": 1624934677,
+      "duration": 375,
+      "playlist": "",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "ab574fe34f592faf5c3f27dbc52088a4",
+        "text": "AzuraCast.com - AzuraCast is Live!",
+        "artist": "AzuraCast.com",
+        "title": "AzuraCast is Live!",
+        "album": "",
+        "genre": "",
+        "lyrics": "",
+        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 155,
+      "played_at": 1624934557,
+      "duration": 120,
+      "playlist": "",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "ad921d60486366258809553a3db49a4a",
+        "text": " - Unknown",
+        "artist": "",
+        "title": "Unknown",
+        "album": "",
+        "genre": "",
+        "lyrics": "",
+        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 154,
+      "played_at": 1624931860,
+      "duration": 2697,
+      "playlist": "",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "ab574fe34f592faf5c3f27dbc52088a4",
+        "text": "AzuraCast.com - AzuraCast is Live!",
+        "artist": "AzuraCast.com",
+        "title": "AzuraCast is Live!",
+        "album": "",
+        "genre": "",
+        "lyrics": "",
+        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 153,
+      "played_at": 1624931739,
+      "duration": 121,
+      "playlist": "",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "ad921d60486366258809553a3db49a4a",
+        "text": " - Unknown",
+        "artist": "",
+        "title": "Unknown",
+        "album": "",
+        "genre": "",
+        "lyrics": "",
+        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 152,
+      "played_at": 1624931423,
+      "duration": 316,
+      "playlist": "",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "9411c9c2b0be50d250a736b5fc061b24",
+        "text": " - sc 210225 181556",
+        "artist": "",
+        "title": "sc 210225 181556",
+        "album": "",
+        "genre": "",
+        "lyrics": "",
+        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 139,
+      "played_at": 1624923037,
+      "duration": 1729,
+      "playlist": "",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "8e10fef5603400cada525a8784fb3d41",
+        "text": "Gil Fuser - sc 200913 031303",
+        "artist": "Gil Fuser",
+        "title": "sc 200913 031303",
+        "album": "",
+        "genre": "",
+        "lyrics": "",
+        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 116,
+      "played_at": 1624910099,
+      "duration": 1309,
+      "playlist": "",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "704df81efd71c08f7d85bbdecaea8b55",
+        "text": "Gil Fuser - sc 200831 231109 a",
+        "artist": "Gil Fuser",
+        "title": "sc 200831 231109 a",
+        "album": "",
+        "genre": "",
+        "lyrics": "",
+        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 95,
+      "played_at": 1624900348,
+      "duration": 170,
+      "playlist": "",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "8e10fef5603400cada525a8784fb3d41",
+        "text": "Gil Fuser - sc 200913 031303",
+        "artist": "Gil Fuser",
+        "title": "sc 200913 031303",
+        "album": "",
+        "genre": "",
+        "lyrics": "",
+        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 72,
+      "played_at": 1624887648,
+      "duration": 1310,
+      "playlist": "",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "704df81efd71c08f7d85bbdecaea8b55",
+        "text": "Gil Fuser - sc 200831 231109 a",
+        "artist": "Gil Fuser",
+        "title": "sc 200831 231109 a",
+        "album": "",
+        "genre": "",
+        "lyrics": "",
+        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 51,
+      "played_at": 1624876339,
+      "duration": 1727,
+      "playlist": "",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "8e10fef5603400cada525a8784fb3d41",
+        "text": "Gil Fuser - sc 200913 031303",
+        "artist": "Gil Fuser",
+        "title": "sc 200913 031303",
+        "album": "",
+        "genre": "",
+        "lyrics": "",
+        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 28,
+      "played_at": 1624863299,
+      "duration": 1311,
+      "playlist": "",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "704df81efd71c08f7d85bbdecaea8b55",
+        "text": "Gil Fuser - sc 200831 231109 a",
+        "artist": "Gil Fuser",
+        "title": "sc 200831 231109 a",
+        "album": "",
+        "genre": "",
+        "lyrics": "",
+        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 7,
+      "played_at": 1624851990,
+      "duration": 1728,
+      "playlist": "",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "8e10fef5603400cada525a8784fb3d41",
+        "text": "Gil Fuser - sc 200913 031303",
+        "artist": "Gil Fuser",
+        "title": "sc 200913 031303",
+        "album": "",
+        "genre": "",
+        "lyrics": "",
+        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "custom_fields": []
+      }
+    }
+  ],
+  "is_online": true,
+  "cache": "redis"
+}

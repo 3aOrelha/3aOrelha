@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <Card />
+  <div class="container mx-auto">
+    <RadioCard />
     <!--    <div>
           <fa :icon="['fas', 'adjust']" />
           &lt;!&ndash;            <fa icon="dollar-sign" style="font-size: 30px" />
@@ -50,14 +50,31 @@
 </template>
 
 <script>
-// import Card from "@/components/Card"
-// import Radio from "@/components/Radio"
-
 export default {
   /*
-    components: {
-      Radio,
-      Card,
+    data() {
+      return {
+        station: [],
+      }
+    },
+  async asyncData({ $axios }) {
+    const station = await $axios.$get(
+      "https://orelha.xyz/api/nowplaying/3a_orelha"
+    )
+    console.log(station)
+    return { station }
+  },
+  computed: {
+    title() {
+      return this.station.now_playing.song.title
+    },
+  },
+  */
+  /*
+    async fetch() {
+      this.station = await fetch(
+        "https://orelha.xyz/api/nowplaying/3a_orelha"
+      ).then((res) => res.json())
     },
   */
   /*

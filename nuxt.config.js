@@ -1,6 +1,6 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  target: "static",
+  target: "server",
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -55,9 +55,27 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/axios',
+    'nuxt-socket-io',
     // https://go.nuxtjs.dev/content
     // "@nuxt/content",
   ],
+  io: {
+    allowEIO3: true,
+    sockets: [
+      {
+        name: 'orelha',
+        url: 'https://orelha.xyz/api/nowplaying/3a_orelha',
+        // default: true,
+        vuex: {},
+        namespaces: {}
+      },
+    ],
+    cors: {
+      origin: "http://localhost:3000",
+      methods: ["GET", "POST"]
+    }
+  },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
