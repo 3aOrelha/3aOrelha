@@ -1,5 +1,6 @@
 ﻿module.exports = {
   darkMode: "class",
+  mode: 'jit',
   purge: [
     "./components/**/*.{vue,js}",
     "./layouts/**/*.vue",
@@ -10,13 +11,25 @@
   // darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        montserrat: ['Montserrat'],
+        poppins: ['Poppins'],
+        bitter: ['Bitter'],
+      },
+      minHeight: {
+        '0': '0',
+        '1/4': '25%',
+        '1/2': '50%',
+        '3/4': '75%',
+        'full': '100%',
+      },
       colors: {
         transparent: "transparent",
         current: "currentColor",
         azul: {
           default: 'var(--azul-default)',
           light: 'var(--azul-light)',
-          dark: 'var(--azul-light)',
+          dark: 'var(--azul-dark)',
         },
         amarelo: {
           default: 'var(--amarelo-default)',
@@ -50,6 +63,11 @@
           default: 'var(--marrom)',
           light: 'var(--sepia)'
         },
+        cinza: {
+          light: 'var(--cinza-verde-medio)',
+          default: 'var(--cinza-verde-claro)',
+          dark: 'var(--cinza-verde-maisescuro)',
+        }
       },
     },
     darkSelector: '.dark-mode',

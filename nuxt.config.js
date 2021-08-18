@@ -30,7 +30,8 @@ export default {
   },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -38,14 +39,15 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    "@nuxtjs/eslint-module",
+    "@nuxtjs/composition-api/module",
     // https://go.nuxtjs.dev/stylelint
-    "@nuxtjs/stylelint-module",
+    "@nuxtjs/eslint-module",
     // https://go.nuxtjs.dev/tailwindcss
+    "@nuxtjs/stylelint-module",
     "@nuxtjs/color-mode",
     "@nuxtjs/tailwindcss",
-    "@nuxtjs/composition-api/module",
-    "@nuxtjs/google-fonts",
+    // "@nuxtjs/google-fonts",
+/*
     [
       "@nuxtjs/fontawesome",
       {
@@ -53,16 +55,24 @@ export default {
         useLayers: true,
       },
     ],
+*/
     "@nuxtjs/svg",
+    // "nuxt-vite"
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/axios',
     'nuxt-socket-io',
+    'nuxt-webfontloader',
     // https://go.nuxtjs.dev/content
     // "@nuxt/content",
   ],
+  webfontloader: {
+    google: {
+      families: ['Montserrat:300,500,600,800&display=swap', 'Bitter:700&display=swap', 'Poppins:400&display=swap']
+    }
+  },
   io: {
     allowEIO3: true,
     sockets: [
@@ -129,6 +139,7 @@ export default {
     interval: 2000,
   },
 
+/*
   fontawesome: {
     icons: {
       solid: [
@@ -153,8 +164,9 @@ export default {
       // regular: ["faAdjust"],
     },
   },
+*/
   tailwindcss: {
-    jit: true,
+    // jit: true,
     // add '~tailwind.config` alias
     exposeConfig: true,
     // cssPath: "~/assets/css/tailwind.css",

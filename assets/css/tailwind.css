@@ -2,6 +2,8 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+/*@import '~assets/css/fonts';*/
+
 
 .sepia {
   @apply bg-sepia-light;

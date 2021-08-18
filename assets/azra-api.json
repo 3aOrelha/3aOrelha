@@ -1,0 +1,370 @@
+{
+  "station": {
+    "id": 1,
+    "name": "3a-Orelha",
+    "shortcode": "3a_orelha",
+    "description": "Fluxos em uma radio-galeria que contem paisagens que contem paisagens que contém",
+    "frontend": "icecast",
+    "backend": "liquidsoap",
+    "listen_url": "https://orelha.xyz:8000/radio.mp3",
+    "url": "3a-orelha.space",
+    "public_player_url": "https://orelha.xyz/public/3a_orelha",
+    "playlist_pls_url": "https://orelha.xyz/public/3a_orelha/playlist.pls",
+    "playlist_m3u_url": "https://orelha.xyz/public/3a_orelha/playlist.m3u",
+    "is_public": true,
+    "mounts": [
+      {
+        "path": "/radio.mp3",
+        "is_default": true,
+        "id": 1,
+        "name": "192kbps MP3",
+        "url": "https://orelha.xyz:8000/radio.mp3",
+        "bitrate": 192,
+        "format": "mp3",
+        "listeners": {
+          "total": 0,
+          "unique": 0,
+          "current": 0
+        }
+      }
+    ],
+    "remotes": []
+  },
+  "listeners": {
+    "total": 0,
+    "unique": 0,
+    "current": 0
+  },
+  "live": {
+    "is_live": false,
+    "streamer_name": "",
+    "broadcast_start": null
+  },
+  "now_playing": {
+    "elapsed": 463,
+    "remaining": 154,
+    "sh_id": 1373,
+    "played_at": 1625608907,
+    "duration": 617,
+    "playlist": "Fuser Experimentos",
+    "streamer": "",
+    "is_request": false,
+    "song": {
+      "id": "b95843c993071c188b4d21ba02ab799f",
+      "text": "Gil Fuser - jack capture 03",
+      "artist": "Gil Fuser",
+      "title": "jack capture 03",
+      "album": "",
+      "genre": "Experimental",
+      "lyrics": "",
+      "art": "https://orelha.xyz/api/station/1/art/65ce2dff00897b6048bc095c-1624932189.jpg",
+      "custom_fields": []
+    }
+  },
+  "playing_next": {
+    "cued_at": 1625609643,
+    "duration": 942,
+    "playlist": "Fuser Experimentos",
+    "is_request": false,
+    "song": {
+      "id": "f178f4c5ab6504ca566f0638f8cccd1c",
+      "text": "Gil Fuser - jack capture 04",
+      "artist": "Gil Fuser",
+      "title": "jack capture 04",
+      "album": "",
+      "genre": "Experimental",
+      "lyrics": "",
+      "art": "https://orelha.xyz/api/station/1/art/08c6bd5a333502739e4b4f98-1624932171.jpg",
+      "custom_fields": []
+    }
+  },
+  "song_history": [
+    {
+      "sh_id": 1372,
+      "played_at": 1625608540,
+      "duration": 496,
+      "playlist": "Fuser Experimentos",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "2b6f8781a15eae75b50729755a01000f",
+        "text": "Gil Fuser - jack capture 02",
+        "artist": "Gil Fuser",
+        "title": "jack capture 02",
+        "album": "",
+        "genre": "Experimental",
+        "lyrics": "",
+        "art": "https://orelha.xyz/api/station/1/art/7b7b8fef60b5204cd688cd67-1624932209.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 1371,
+      "played_at": 1625608483,
+      "duration": 59,
+      "playlist": "Fuser Experimentos",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "1435dab0fb4daa2c3b44959882eb86c4",
+        "text": "Gil Fuser - sc 210316 170431",
+        "artist": "Gil Fuser",
+        "title": "sc 210316 170431",
+        "album": "",
+        "genre": "Experimental",
+        "lyrics": "",
+        "art": "https://orelha.xyz/api/station/1/art/745703989ad411727b996fd0-1624931468.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 1370,
+      "played_at": 1625608150,
+      "duration": 333,
+      "playlist": "",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "ab574fe34f592faf5c3f27dbc52088a4",
+        "text": "AzuraCast.com - AzuraCast is Live!",
+        "artist": "AzuraCast.com",
+        "title": "AzuraCast is Live!",
+        "album": "",
+        "genre": "",
+        "lyrics": "",
+        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 1369,
+      "played_at": 1625607836,
+      "duration": 315,
+      "playlist": "Fuser Experimentos",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "92c17f0040d9e071678104d676786c04",
+        "text": "Gil Fuser - sc 210318 004125",
+        "artist": "Gil Fuser",
+        "title": "sc 210318 004125",
+        "album": "",
+        "genre": "Experimental",
+        "lyrics": "",
+        "art": "https://orelha.xyz/api/station/1/art/70be14f8aa0f1d37841666a3-1624931467.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 1368,
+      "played_at": 1625607568,
+      "duration": 269,
+      "playlist": "Fuser Experimentos",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "8f6b364b14c83615ef43272e28d0c955",
+        "text": "Gil Fuser - sc 210401 230215",
+        "artist": "Gil Fuser",
+        "title": "sc 210401 230215",
+        "album": "",
+        "genre": "Experimental",
+        "lyrics": "",
+        "art": "https://orelha.xyz/api/station/1/art/19f874322a3ba01d1835b4a1-1624931453.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 1367,
+      "played_at": 1625607442,
+      "duration": 126,
+      "playlist": "Fuser Experimentos",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "acde477c85e9ec846a03063642aabf80",
+        "text": "Gil Fuser - jack capture 01",
+        "artist": "Gil Fuser",
+        "title": "jack capture 01",
+        "album": "",
+        "genre": "Experimental",
+        "lyrics": "",
+        "art": "https://orelha.xyz/api/station/1/art/2485f3d2f8079a3c6f783cc8-1624932212.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 1366,
+      "played_at": 1625606819,
+      "duration": 624,
+      "playlist": "Fuser Experimentos",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "25ce4c8993ae85688df9a6a2697eef8e",
+        "text": "Gil Fuser - SC_210315_222545",
+        "artist": "Gil Fuser",
+        "title": "SC_210315_222545",
+        "album": "",
+        "genre": "Experimental",
+        "lyrics": "",
+        "art": "https://orelha.xyz/api/station/1/art/05b09263e4d956411948fc52-1624931488.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 1365,
+      "played_at": 1625605964,
+      "duration": 856,
+      "playlist": "Fuser Experimentos",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "e20780e4259c8d495c2ef5b9a2bb6f73",
+        "text": "Gil Fuser - SC_210225_184445",
+        "artist": "Gil Fuser",
+        "title": "SC_210225_184445",
+        "album": "",
+        "genre": "Experimental",
+        "lyrics": "",
+        "art": "https://orelha.xyz/api/station/1/art/d86f42ca69b51e8ff02d13f2-1624931528.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 1364,
+      "played_at": 1625605282,
+      "duration": 683,
+      "playlist": "Fuser Experimentos",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "86f2f4356a4d41564bd23956c7a5cde9",
+        "text": "Gil Fuser - SC_210225_181556",
+        "artist": "Gil Fuser",
+        "title": "SC_210225_181556",
+        "album": "",
+        "genre": "Experimental",
+        "lyrics": "",
+        "art": "https://orelha.xyz/api/station/1/art/809b95d24c681979e15ce6e7-1624931544.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 1363,
+      "played_at": 1625604300,
+      "duration": 983,
+      "playlist": "Fuser Experimentos",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "acd4f99e24a99d844ad6546082343b13",
+        "text": "Gil Fuser - SC_201211_223229",
+        "artist": "Gil Fuser",
+        "title": "SC_201211_223229",
+        "album": "",
+        "genre": "Experimental",
+        "lyrics": "",
+        "art": "https://orelha.xyz/api/station/1/art/bfc60c094b92acac221df648-1624931574.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 1362,
+      "played_at": 1625603744,
+      "duration": 559,
+      "playlist": "Fuser Experimentos",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "9d23e85e7d02a3d059c78401b3400934",
+        "text": "Gil Fuser - SC_201112_130746",
+        "artist": "Gil Fuser",
+        "title": "SC_201112_130746",
+        "album": "",
+        "genre": "Experimental",
+        "lyrics": "",
+        "art": "https://orelha.xyz/api/station/1/art/4d0292be3b1cc1c559748421-1624931589.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 1361,
+      "played_at": 1625602702,
+      "duration": 1041,
+      "playlist": "Fuser Experimentos",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "399319d6ccb19e5f0a279d08fd0a716c",
+        "text": "Gil Fuser - SC_201001_044844",
+        "artist": "Gil Fuser",
+        "title": "SC_201001_044844",
+        "album": "",
+        "genre": "Experimental",
+        "lyrics": "",
+        "art": "https://orelha.xyz/api/station/1/art/bfe43bc183315c77b96bcece-1624931635.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 1360,
+      "played_at": 1625601982,
+      "duration": 721,
+      "playlist": "Fuser Experimentos",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "2b5c9c9e3a3b945906b636696a961ee6",
+        "text": "Gil Fuser - SC_200924_215502",
+        "artist": "Gil Fuser",
+        "title": "SC_200924_215502",
+        "album": "",
+        "genre": "Experimental",
+        "lyrics": "",
+        "art": "https://orelha.xyz/api/station/1/art/14dc257584eb20ddf8ca4a29-1624931699.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 1359,
+      "played_at": 1625600803,
+      "duration": 1182,
+      "playlist": "Fuser Experimentos",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "6846fd0000dd25aaddf988ff2988ff83",
+        "text": "Gil Fuser - SC_200901_150510",
+        "artist": "Gil Fuser",
+        "title": "SC_200901_150510",
+        "album": "",
+        "genre": "Experimental",
+        "lyrics": "",
+        "art": "https://orelha.xyz/api/station/1/art/4a3532dea2aff91335e9cd61-1624931790.jpg",
+        "custom_fields": []
+      }
+    },
+    {
+      "sh_id": 1358,
+      "played_at": 1625600141,
+      "duration": 662,
+      "playlist": "Fuser Experimentos",
+      "streamer": "",
+      "is_request": false,
+      "song": {
+        "id": "3167cdd4c82e00d0ee22769db98fcbca",
+        "text": "Gil Fuser - SC_200830_175038",
+        "artist": "Gil Fuser",
+        "title": "SC_200830_175038",
+        "album": "",
+        "genre": "Experimental",
+        "lyrics": "",
+        "art": "https://orelha.xyz/api/station/1/art/a6643201f5478ab75cfd864a-1624931875.jpg",
+        "custom_fields": []
+      }
+    }
+  ],
+  "is_online": true,
+  "cache": "redis"
+}

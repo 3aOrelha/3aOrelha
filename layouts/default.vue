@@ -7,7 +7,6 @@
       p-0
       bg-gray-200
       dark:bg-verde-preto dark:text-gray-200
-      mx-auto
       flex-col
       justify-center
     "
