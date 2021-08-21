@@ -26,6 +26,7 @@
       colors: {
         transparent: "transparent",
         current: "currentColor",
+        offwhite: 'var(--offwhite)',
         azul: {
           default: 'var(--azul-default)',
           light: 'var(--azul-light)',

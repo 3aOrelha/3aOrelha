@@ -31,6 +31,8 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    // '~/plugins/vue-friendly-iframe.client.js'
+    '~/plugins/vue-iframes',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -70,7 +72,7 @@ export default {
   ],
   webfontloader: {
     google: {
-      families: ['Montserrat:300,500,600,800&display=swap', 'Bitter:700&display=swap', 'Poppins:400&display=swap']
+      families: ['Montserrat:300,400,500,600,800', 'Bitter:700', 'Poppins:400']
     }
   },
   io: {

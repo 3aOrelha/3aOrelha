@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="light:bg-gray-800 dark:bg-cinza-dark font-montserrat font-medium mx-auto px-4 sm:px-4 lg:px-8 ">
+    <nav class="light:bg-gray-800 dark:bg-cinza-dark bg-cinza-dark font-montserrat font-medium mx-auto px-4 sm:px-4 lg:px-8 ">
       <div class="mx-auto px-4 sm:px-6 lg:px-8">
       <!-- Container to give Navbar a fixed width -->
 <!--      <div class="flex mx-auto items-center justify-between p-4 max-w-7xl w-full">-->

@@ -27,7 +27,8 @@
     "nchan": "^1.0.10",
     "nuxt": "^2.15.8",
     "nuxt-socket-io": "^1.1.21",
-    "tailwindcss": "^2.2.7"
+    "tailwindcss": "^2.2.7",
+    "vue-iframes": "^0.0.16"
   },
   "devDependencies": {
     "@nuxtjs/color-mode": "^2.1.1",
