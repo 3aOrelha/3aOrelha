@@ -1,21 +1,29 @@
 <template>
-  <vue-iframe
+  <!--  allow="camera *; geolocation *; microphone *; autoplay *"-->
+  <iframe
+    id="radio"
     :src="src"
-    allow="camera *; geolocation *; microphone *; autoplay *"
-    frame-id="my-iframe"
+    class=" flex items-start w-full 2xl:h-2/5 b-0 m-0 "
     name="my-frame"
-    style="width: 100%; min-height: 150px; border: 0"
     @load="onLoad"
-  ></vue-iframe>
+  ></iframe>
+  <!--
+  <vue-iframe
+      :src="src"
+      frame-id="my-iframe"
+      name="my-frame"
+      style="width: 100%; min-height: 150px; border: 0"
+      @load="onLoad"
+    ></vue-iframe>
+  -->
 </template>
-
 <script>
 export default {
-  name: 'MyIframe',
+  name: "MyIframe",
   data() {
     return {
       MyIframe: null,
-      src: "https://orelha.xyz/public/3a_orelha/embed?theme=dark",
+      src: "https://orelha.xyz/public/3a_orelha/embed?theme=light",
     }
   },
   methods: {
@@ -34,10 +42,15 @@ export default {
 </script>
 
 <style>
-frame {
-  display: none !important;
+/*
+#radio {
+  overflow: hidden !important;
 }
-.radio-control-play-button a { color:#fff !important; }
+*/
+
+#radio .radio-control-play-button a {
+  color: #fff !important;
+}
 
 /*
 .vue-iframe #my-iframe [data-theme] .page-minimal .stations .radio-player-widget .now-playing-details .now-playing-main .now-playing-title {

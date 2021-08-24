@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-grow w-full flex-col bg-verde-preto h-screen">
+  <div class="w-full bg-verde-preto h-screen  ">
     <!--    class="min-h-screen bg-gray-500"-->
     <nav
       id="navigation"
@@ -9,102 +9,54 @@
     </nav>
       <div
         class="
-          py-6
-          sm:px-0
-          mx-auto
-          h-1/2
-          w-full
-          bg-azul-dark
-          z-0
+          p-10
+          sm:p-6
+          md:p-16
           flex
+          min-h-1/2
+          2xl:min-h-1/3
           justify-center
           items-center
+          bg-azul-dark
         "
       >
-        <RadioCard />
-<!--        <div
-          class="
-            rounded-sm
-            flex flex-col flex-start
-            radio
-          "
-        >
-          <div class="etiqueta">
-            <div class="radiogaleria-ao-vivo montserrat-medium-fuscous"></div>
-            <div class="text-1 montserrat-medium-fuscous">
-              <span>RADIOGALERIA</span><span class="span1">AO VIVO</span>
-            </div>
-          </div>
-          <div class="radio-card">
-            <div class="frame-21"></div>
-            <div class="radio-card-text">
-              <h1 class="text-2 font-bitter">Jardineira Exprimaveril</h1>
-              <div class="frame-8">
-                <div class="zez-tot">Zezé Totó</div>
-                <div class="text-3">Álbum Verde - Música do Jasmin</div>
-              </div>
-              <p class="text-4 font-poppins">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Aperiam assumenda consectetur debitis deleniti dolorum eligendi,
-                esse et labore laborum libero nemo obcaecati, optio placeat,
-                porro provident quaerat quisquam quo ratione.
-              </p>
-              <div class="frame-34">
-                <div class="button">
-                  <div class="frame-3"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      -->
+          <RadioCard />
       </div>
       <div
         class="
-          px-4
-          py-6
-          sm:px-0
-          mx-auto
-          py-1/2
-          w-full
-          sm:px-6
-          lg:px-8
+          p-10
+          sm:p-6
           min-h-1/2
+          2xl:min-h-1/3
+          flex
+          items-center
+          justify-center
           bg-laranja-dark
-          z-0
         "
       >
       </div>
       <div
         class="
-          px-4
-          py-6
-          sm:px-0
-          mx-auto
-          py-6
-          sm:px-6
-          lg:px-8
-          w-full
-          h-1/2
-          bg-verde-preto
-          z-0
+          p-10
+          sm:p-6
+          min-h-1/2
+          2xl:min-h-1/3
+          flex
+          items-center
+          justify-center
+          bg-vermelho-escuro
         "
       ></div>
       <div
         class="
-          px-4
-          py-6
-          sm:px-0
-          mx-auto
-          py-6
-          sm:px-6
-          lg:px-8
-          w-full
-          h-1/2
+          p-10
+          sm:p-6
+          min-h-1/2
+          2xl:min-h-1/3
+          flex
+          items-center
+          justify-center
           bg-azul-dark
-          z-0
-          transform
-          translate-y-0
         "
       ></div>
       <!--    <div>
