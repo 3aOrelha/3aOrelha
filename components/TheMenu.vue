@@ -1,17 +1,28 @@
 <template>
   <div>
-    <nav class="light:bg-gray-800 dark:bg-cinza-dark bg-cinza-dark font-montserrat font-medium mx-auto px-4 sm:px-4 lg:px-8 ">
+    <nav
+      class="
+        light:bg-gray-800
+        dark:bg-cinza-dark
+        bg-cinza-dark
+        font-montserrat font-medium
+        mx-auto
+        px-4
+        sm:px-4
+        lg:px-8
+      "
+    >
       <div class="mx-auto px-4 sm:px-6 lg:px-8">
-      <!-- Container to give Navbar a fixed width -->
-<!--      <div class="flex mx-auto items-center justify-between p-4 max-w-7xl w-full">-->
+        <!-- Container to give Navbar a fixed width -->
+        <!--      <div class="flex mx-auto items-center justify-between p-4 max-w-7xl w-full">-->
 
-      <div class="flex items-center justify-between h-20">
+        <div class="flex items-center justify-between h-20">
           <div class="flex items-stretch">
             <div class="flex-shrink-0">
               <img
+                alt="3a Orelha - radiogaleria"
                 class="h-14"
                 src="@/assets/logos/logo-hor-claro.svg"
-                alt="3a Orelha - radiogaleria"
               />
             </div>
             <div class="hidden md:block">
@@ -37,20 +48,24 @@
                 "
               >
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   class="h-6 w-6"
                   fill="none"
-                  viewBox="0 0 24 24"
                   stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
+                    d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
-                    d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                   />
                 </svg>
-                <a href="#" class="px-3 py-2 text-sm font-medium tracking-widest">INFO</a>
+                <a
+                  class="px-3 py-2 text-sm font-medium tracking-widest"
+                  href="#"
+                  >INFO</a
+                >
               </button>
               <button
                 class="
@@ -69,22 +84,27 @@
                 "
               >
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   class="h-6 w-6"
                   fill="none"
-                  viewBox="0 0 24 24"
                   stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
+                    d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
-                    d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
                   />
                 </svg>
-                <a href="#" class="px-3 py-2 text-sm font-medium tracking-widest">CONTATO</a>
+                <a
+                  class="px-3 py-2 text-sm font-medium tracking-widest"
+                  href="#"
+                  >CONTATO</a
+                >
               </button>
               <button
+                aria-label="Font Size"
                 class="
                   p-1
                   border-2 border-transparent
@@ -93,20 +113,20 @@
                   hover:text-white
                   focus:outline-none focus:text-white focus:bg-gray-700
                 "
-                aria-label="Font Size"
               >
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   class="h-6 w-6"
                   fill="currentColor"
-                  viewBox="0 0 24 24"
                   stroke="none"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path d="M0 0h24v24H0V0z" fill="none" />
                   <path d="M9 4v3h5v12h3V7h5V4H9zm-6 8h3v7h3v-7h3V9H3v3z" />
                 </svg>
               </button>
               <button
+                aria-label="language"
                 class="
                   p-1
                   border-2 border-transparent
@@ -115,24 +135,24 @@
                   hover:text-white
                   focus:outline-none focus:text-white focus:bg-gray-700
                 "
-                aria-label="language"
               >
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   class="h-6 w-6"
                   fill="none"
-                  viewBox="0 0 24 24"
                   stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
+                    d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
-                    d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
                   />
                 </svg>
               </button>
               <button
+                aria-label="Color Theme"
                 class="
                   p-1
                   border-2 border-transparent
@@ -141,20 +161,19 @@
                   hover:text-white
                   focus:outline-none focus:text-white focus:bg-gray-700
                 "
-                aria-label="Color Theme"
               >
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
                   class="h-6 w-6"
                   fill="none"
-                  viewBox="0 0 24 24"
                   stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
+                    d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                     stroke-width="2"
-                    d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
                   />
                 </svg>
               </button>
@@ -255,7 +274,6 @@
           <div class="-mr-2 flex md:hidden">
             <!-- Mobile menu button -->
             <button
-              @click="toggle"
               class="
                 inline-flex
                 items-center
@@ -263,34 +281,35 @@
                 p-2
                 rounded-md
                 text-gray-400
-                hover:text-white hover:bg-gray-700
-                focus:outline-none focus:bg-gray-700 focus:text-white
+                hover:text-white hover:bg-cinza-light
+                focus:outline-none focus:bg-cinza-verde-claro focus:text-white
               "
+              @click="toggle"
             >
               <svg
                 :class="[isOpen ? 'hidden' : 'block', 'h-6 w-6']"
-                stroke="currentColor"
                 fill="none"
+                stroke="currentColor"
                 viewBox="0 0 24 24"
               >
                 <path
+                  d="M4 6h16M4 12h16M4 18h16"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
-                  d="M4 6h16M4 12h16M4 18h16"
                 ></path>
               </svg>
               <svg
                 :class="[isOpen ? 'block' : 'hidden', 'h-6 w-6']"
-                stroke="currentColor"
                 fill="none"
+                stroke="currentColor"
                 viewBox="0 0 24 24"
               >
                 <path
+                  d="M6 18L18 6M6 6l12 12"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
-                  d="M6 18L18 6M6 6l12 12"
                 ></path>
               </svg>
             </button>
@@ -298,36 +317,43 @@
         </div>
       </div>
       <div :class="[isOpen ? '' : 'hidden', 'md:hidden']">
-        <div class="px-2 pt-2 pb-3 sm:px-3">
+        <div class=" px-2 pt-2 pb-3 sm:px-3 ">
           <a
-            href="#"
             class="
               block
               px-3
               py-2
-              rounded-md
+              rounded
               text-base
+              font-montserrat
+              tracking-widest
               font-medium
-              text-white
-              bg-gray-900
-              focus:outline-none focus:text-white focus:bg-gray-700
+              text-cinza-default
+              transition-colors
+              bg-cinza-dark
+              hover:text-white hover:bg-cinza-light
+              focus:outline-none focus:text-white focus:bg-verde-preto
             "
+            href="#"
             >INFO</a
           >
           <a
-            href="#"
             class="
               mt-1
               block
               px-3
               py-2
-              rounded-md
+              rounded
               text-base
+              font-montserrat
+              tracking-widest
               font-medium
-              text-gray-300
-              hover:text-white hover:bg-gray-700
-              focus:outline-none focus:text-white focus:bg-gray-700
+              text-cinza-default
+              transition-colors
+              hover:text-white hover:bg-cinza-light
+              focus:outline-none focus:text-white focus:bg-verde-preto
             "
+            href="#"
             >CONTATO</a
           >
         </div>

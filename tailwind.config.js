@@ -11,6 +11,9 @@
   // darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      screens: {
+        'xsm': {'min': '280px', 'max': '639px'},
+      },
       fontFamily: {
         montserrat: ["Montserrat"],
         poppins: ["Poppins"],
@@ -89,6 +92,7 @@
           light: "var(--sepia)",
         },
         cinza: {
+          claro: "var(--cinza-verde-claro)",
           light: "var(--cinza-verde-medio)",
           default: "var(--cinza-verde-claro)",
           dark: "var(--cinza-verde-maisescuro)",

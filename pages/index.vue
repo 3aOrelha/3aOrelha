@@ -9,7 +9,7 @@
     </nav>
       <div
         class="
-          p-10
+          xsm:p-4
           sm:p-6
           md:p-16
           flex

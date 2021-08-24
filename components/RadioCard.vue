@@ -1,9 +1,22 @@
 <template>
-  <div class="font-montserrat md:max-w-3/4">
+  <div class="font-montserrat sm:max-w-5/6 md:max-w-3/4">
     <!--
     -->
-    <div id="etiqueta" class="flex mb-2 tracking-widest">
-      <span class="ml-6 lg:ml-20 text-white font-medium">RADIOGALERIA</span>
+    <div
+      id="etiqueta"
+      class="
+        flex
+        xsm:mb-1
+        sm:mb-2
+        tracking-widest
+        xsm:text-sm
+        sm:text-base
+        xsm:justify-center
+      "
+    >
+      <span class="xsm:m-0 sm:ml-6 lg:ml-20 text-white font-medium"
+        >RADIOGALERIA</span
+      >
       <pre class="font-montserrat font-extrabold text-gray-300"> AO VIVO</pre>
     </div>
 
@@ -12,7 +25,8 @@
         class="
           bg-cover
           overflow-hidden
-          sm:h-96
+          xsm:h-44
+          sm:h-80
           md:h-64 md:max-w-7xl
           lg:h-auto lg:w-48 lg:w-80
           flex-none
@@ -22,13 +36,15 @@
           lg:rounded-tr-none lg:rounded-l-xl
         "
       >
-        <img :src="nowPlaying.now_playing.song.art" alt="Album cover"/>
+        <img :src="nowPlaying.now_playing.song.art" alt="Album cover" />
       </div>
 
       <div
         class="
-          bg-black
-          p-6
+          bg-verde-preto
+          xsm:p-4
+          xsm:h-64
+          sm:p-6
           md:h-80
           rounded-b-xl
           md:max-w-7xl
@@ -40,14 +56,29 @@
       >
         <!--      <div class="px-4 pb-2 flex flex-col justify-between w-2/3">-->
         <!--        <div class="mb-8">-->
-        <div id="programa" class="mb-2 tracking-widest font-montserrat p-1">
-          <span class="font-extrabold text-gray-300"> PROGRAMA</span>
+        <div
+          id="programa"
+          class="
+            mb-2
+            tracking-widest
+            xsm:text-xs
+            sm:text-base
+            font-montserrat
+            p-1
+          "
+        >
+          <span class="font-extrabold text-gray-300 xsm:mb-2 sm:mb-0"> PROGRAMA</span>
           <h1
             class="
               font-bitter font-bold
-              text-3xl
+              xsm:text-2xl
+              xsm:leading-none
+              xsm:mb-0
+              sm:mb-2
+              sm:leading-tight
+              sm:text-3xl
+              md:text-4xl
               xl:text-5xl
-              mb-2
               text-offwhite
             "
           >
@@ -57,9 +88,11 @@
         <h2
           class="
             font-montserrat font-normal
-            text-2xl text-amarelo-dark
+            xsm:text-xl
+            sm:text-2xl text-amarelo-dark
             xl:text-3xl
-            mb-2
+            xsm:mb-0
+            xsm:mb-2
             dark:text-amarelo-dark
           "
         >
@@ -72,9 +105,11 @@
           <h3
             class="
               font-montserrat font-bold
-              text-xl text-amarelo-dark
+              xsm:text-lg
+              sm:text-xl text-amarelo-dark
               xl:text-xl
-              mb-2
+              xsm:mb-0
+              sm:mb-2
               dark:text-amarelo-dark
             "
           >
@@ -88,7 +123,7 @@
           {{ nowPlaying.now_playing.song.custom_fields.comment }}
         </h4>
         <div>
-          <Radio/>
+          <Radio />
         </div>
       </div>
       <!--    <div class="px-6 py-4">
