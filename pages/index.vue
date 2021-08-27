@@ -2,14 +2,14 @@
   <div class="w-full bg-verde-preto h-screen">
     <!--    class="min-h-screen bg-gray-500"-->
     <nav id="navigation" class="sticky top-0 transition-all duration-500">
-      <TheMenu/>
+      <TheMenu />
     </nav>
     <div
       id="hero-section"
       class="
         xsm:py-4
         sm:py-6
-        md:py-16 md:flex
+        smd:py-16 smd:flex
         min-h-1/2
         bg-azul-dark
         slg:flex-col
@@ -17,80 +17,68 @@
         items-center
       "
     >
-      <div
-        id="hero-wrap"
-        class="sm:flex justify-between md:flex md:flex-start md:w-4/5"
-      >
+      <div id="hero-wrap" class="justify-center smd:flex md:w-4/5 slg:w-full">
         <div
           id="hero-left"
-          class="
-            font-montserrat
-            flex-col
-            text-center
-            justify-center
+          class="font-montserrat text-center sm:text-left
+            smd:flex
             items-center
-            sm:text-left
-            smd:px-12 smd:pt-8
-            md:p-0
-            sm:w-1/2 sm:mt-8
-            smd:m-0
-          "
+            smd:w-1/2 md:mr-12 smd:flex-col
+            md:m-0
+"
         >
-          <h1
-            class="
-              text-sepia-light text-4xl
-              lg:text-5xl
-              sxl:text-6xl
-              xxl:text-7xl
-              font-black
-              tracking-tight
-              mt-8
-              mb-4
-              mx-6
-              sm:mt-4 sm:pl-4
-              smd:p-0 smd:mx-0
-              lxl:pr-16
-              md:pt-8 md:pr-8
-            "
-          >
-            ESCUTA ALÉM DA ESCUTA.
-          </h1>
-          <p
-            class="
-              text-sm text-offwhite
-              tracking-widest
-              antialised
-              font-medium
-              xsm:px-8
-              sm:pl-10 sm:pr-14
-              mb-4
-              smd:m-0 smd:p-0 smd:font-semibold smd:text-base
-              md:pr-12
-              slg:p-0 slg:text-lg
-              xl:text-xl
-              slg:w-4/5
-            "
-          >
-            Além de uma web-rádio um espaço para investigação e escuta atentas.
-            Vozes, gestos e corpos de povos de todas as espécies.
-          </p>
+            <h1
+              class="
+                font-black
+                text-sepia-light text-4xl
+                text-center
+                smd:text-left smd:text-5xl
+                slg:text-6xl
+                xxl:text-7xl
+                tracking-tight
+                my-4
+                mx-6
+                smd:ml-10
+                md:ml-0
+                slg:w-4/5 slg:ml-6
+              "
+            >
+              ESCUTA ALÉM DA ESCUTA.
+            </h1>
+            <p
+              class="
+                text-sm text-offwhite
+                tracking-widest
+                antialised
+                font-medium
+                text-center
+                smd:text-left
+                xsm:px-8
+                mb-2
+                sm:pl-10 sm:pr-14 sm:mb-4
+                md:m-0 md:p-0 smd:font-semibold smd:text-base
+                md:pr-12
+                slg:p-0 slg:text-lg
+                xl:text-xl
+                slg:w-4/5
+              "
+            >
+              Além de uma web-rádio um espaço para investigação e escuta
+              atentas. Vozes, gestos e corpos de povos de todas as espécies.
+            </p>
           <!--          <pre class="mt-3 bg-verde-preto text-gray-300 text-xs">["ruídos","gritos"].choose+["urgentes","tênues"].choose</pre>-->
         </div>
         <div
-          id="hero-right-small"
-          class="sm:w-1/2 sm:mr-12 flex justify-center items-center smd:hidden"
-        >
-          <RadioCardSmall/>
-        </div>
-        <div
-          id="hero-right-big"
+          id="hero-right"
           class="
-            hidden
-            smd:flex smd:flex-col smd:justify-center smd:items-center smd:mr-12
+            flex
+            justify-center
+            items-center
+            smd:w-1/2 smd:mr-12 smd:flex-col smd:mr-12
             md:m-0
           "
         >
-          <RadioCard/>
+          <RadioCard />
         </div>
       </div>
     </div>
@@ -179,7 +167,7 @@
 </template>
 
 <script>
-import {onMounted, ref} from "@nuxtjs/composition-api"
+import { onMounted, ref } from "@nuxtjs/composition-api"
 
 export default {
   setup() {
@@ -189,7 +177,7 @@ export default {
     }
     onMounted(() => {
       let prevScrollpos = window.pageYOffset
-      window.onscroll = function () {
+      window.onscroll = function() {
         const currentScrollPos = window.pageYOffset
         if (prevScrollpos > currentScrollPos || isVisible.value) {
           document.getElementById("navigation").style.top = "0"

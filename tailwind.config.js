@@ -131,6 +131,5 @@
   plugins: [
     require("tailwindcss-dark-mode")(),
     require('tailwindcss-debug-screens'),
-    require('@tailwindcss/typography'),
   ],
 }

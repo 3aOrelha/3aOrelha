@@ -24,7 +24,10 @@
         xsm:h-64
         sm:h-80
         sm:p-6
-        rounded-b-xl
+          smd:max-h-32 smd:w-full
+          slg:max-h-96 slg:h-auto slg:w-40 lg:w-48
+          slg:rounded-tr-none slg:rounded-l-xl
+        rounded-xl
         overflow-hidden
         shadow-md
       "

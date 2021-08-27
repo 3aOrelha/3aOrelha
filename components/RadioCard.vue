@@ -4,11 +4,7 @@
     -->
     <div
       id="etiqueta"
-      class="
-        hidden
-        smd:flex
-        xsm:mb-1
-        sm:mb-2
+      class=" invisible smd:visible flex
         tracking-widest
         xsm:text-sm
         slg:text-base
@@ -18,43 +14,35 @@
         lg:items-start
       "
     >
-      <span class="lg:ml-4 text-white font-medium"
-        >RADIOGALERIA</span
+      <p class="lg:ml-4 text-white font-medium"
+        >RADIOGALERIA</p
       >
       <pre class="font-montserrat font-extrabold text-gray-300"> AO VIVO</pre>
     </div>
 
-    <div id="radio-card" class="slg:flex w-full slg:max-w-full">
-      <img
-        :src="nowPlaying.now_playing.song.art"
-        alt="Album cover"
-        class="
-          smd:max-h-32 smd:w-full
-          slg:max-h-96 slg:h-auto slg:w-40 lg:w-48
-          object-cover
-          flex-none
-          shadow-md
-          rounded-t-xl
-          slg:rounded-tr-none slg:rounded-l-xl
-        "
-      />
+    <div
+      id="radio-card"
+      :style="{ backgroundImage: `url(${nowPlaying.now_playing.song.art})` }"
+      class="
+        bg-verde-preto
+        bg-center
+        w-full
+        object-cover
+        flex-none
+        shadow-md
+        rounded-t-xl
+        p-4
+        xsm:h-64
+        sm:h-80
+        sm:p-6
+        smd:w-full
+        slg:max-h-96 slg:h-auto
+        rounded-xl
+        overflow-hidden
+        shadow-md
+      "
+    >
 
-      <div
-        class="
-          bg-verde-preto
-          xsm:p-4 xsm:h-64
-          sm:p-6
-          smd:h-80
-          rounded-b-xl
-          md:max-w-7xl
-          slg:rounded-l-none slg:p-4 slg:h-auto
-          overflow-hidden
-          slg:rounded-r-xl
-          shadow-md
-        "
-      >
-        <!--      <div class="px-4 pb-2 flex flex-col justify-between w-2/3">-->
-        <!--        <div class="mb-8">-->
         <div
           id="programa"
           class="
@@ -131,12 +119,7 @@
         <div>
           <Radio />
         </div>
-      </div>
-      <!--    <div class="px-6 py-4">
-              <span class="badge mr-2">#música</span>
-              <span class="badge mr-2">#rádio</span>
-            </div>
-          -->
+
     </div>
 
     <div class="sm:max-w-xl sm:mx-auto max-w-sm pl-4 py-4">

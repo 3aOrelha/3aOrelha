@@ -1,5 +1,3 @@
-import { join } from "path"
-
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: "server",
@@ -112,7 +110,6 @@ export default {
         // 'postcss-url': false,
         // 'postcss-responsive-type': {},
         // 'postcss-hexrgba': {}
-
         // tailwindcss: join(__dirname, "tailwind.config.js"),
         // "cq-prolyfill": { grid: true },
       },

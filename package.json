@@ -23,14 +23,11 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/composition-api": "^0.24.7",
-    "@tailwindcss/typography": "^0.4.1",
     "core-js": "^3.16.1",
-    "cq-prolyfill": "^0.4.0",
     "nchan": "^1.0.10",
     "nuxt": "^2.15.8",
     "nuxt-socket-io": "^1.1.21",
     "tailwindcss": "^2.2.7",
-    "tailwindcss-fluid": "^0.2.0",
     "vue-iframes": "^0.0.16"
   },
   "devDependencies": {
