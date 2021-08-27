@@ -48,6 +48,7 @@ export default {
     "@nuxtjs/stylelint-module",
     "@nuxtjs/color-mode",
     "@nuxtjs/tailwindcss",
+    "@nuxtjs/svg",
     // "@nuxtjs/google-fonts",
     /*
     [
@@ -58,7 +59,6 @@ export default {
       },
     ],
 */
-    "@nuxtjs/svg",
     // "nuxt-vite"
   ],
 
@@ -94,6 +94,14 @@ export default {
       origin: "http://localhost:8080",
       methods: ["GET", "POST"],
     },
+  },
+  svg: {
+    vueSvgLoader: {
+      // vue-svg-loader options
+    },
+    svgSpriteLoader: {
+      // svg-sprite-loader options
+    }
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content

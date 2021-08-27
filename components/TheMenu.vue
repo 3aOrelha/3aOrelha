@@ -317,7 +317,7 @@
         </div>
       </div>
       <div :class="[isOpen ? '' : 'hidden', 'md:hidden']">
-        <div class=" px-2 pt-2 pb-3 sm:px-3 ">
+        <div class="px-2 pt-2 pb-3 sm:px-3">
           <a
             class="
               block

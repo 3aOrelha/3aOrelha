@@ -20,52 +20,57 @@
       <div id="hero-wrap" class="justify-center smd:flex md:w-4/5 slg:w-full">
         <div
           id="hero-left"
-          class="font-montserrat text-center sm:text-left
+          class="
+            font-montserrat
+            text-center
+            sm:text-left
             smd:flex
             items-center
-            smd:w-1/2 md:mr-12 smd:flex-col
+            smd:w-1/2
+            md:mr-12
+            smd:flex-col
             md:m-0
-"
+          "
         >
-            <h1
-              class="
-                font-black
-                text-sepia-light text-4xl
-                text-center
-                smd:text-left smd:text-5xl
-                slg:text-6xl
-                xxl:text-7xl
-                tracking-tight
-                my-4
-                mx-6
-                smd:ml-10
-                md:ml-0
-                slg:w-4/5 slg:ml-6
-              "
-            >
-              ESCUTA ALÉM DA ESCUTA.
-            </h1>
-            <p
-              class="
-                text-sm text-offwhite
-                tracking-widest
-                antialised
-                font-medium
-                text-center
-                smd:text-left
-                xsm:px-8
-                mb-2
-                sm:pl-10 sm:pr-14 sm:mb-4
-                md:m-0 md:p-0 smd:font-semibold smd:text-base
-                md:pr-12
-                slg:p-0 slg:text-lg
-                xl:text-xl
-                slg:w-4/5
-              "
-            >
-              Além de uma web-rádio um espaço para investigação e escuta
-              atentas. Vozes, gestos e corpos de povos de todas as espécies.
-            </p>
+          <h1
+            class="
+              font-black
+              text-sepia-light text-4xl text-center
+              smd:text-left smd:text-5xl
+              slg:text-6xl
+              xxl:text-7xl
+              tracking-tight
+              my-4
+              mx-6
+              smd:ml-10
+              md:ml-0
+              slg:w-4/5 slg:ml-6
+            "
+          >
+            ESCUTA ALÉM DA ESCUTA.
+          </h1>
+          <p
+            class="
+              text-sm text-offwhite
+              tracking-widest
+              antialised
+              font-medium
+              text-center
+              smd:text-left
+              xsm:px-8
+              mb-2
+              sm:pl-10 sm:pr-14 sm:mb-4
+              md:m-0 md:p-0
+              smd:font-semibold smd:text-base
+              md:pr-12
+              slg:p-0 slg:text-lg
+              xl:text-xl
+              slg:w-4/5
+            "
+          >
+            Além de uma web-rádio um espaço para investigação e escuta atentas.
+            Vozes, gestos e corpos de povos de todas as espécies.
+          </p>
           <!--          <pre class="mt-3 bg-verde-preto text-gray-300 text-xs">["ruídos","gritos"].choose+["urgentes","tênues"].choose</pre>-->
         </div>
         <div
@@ -83,6 +88,7 @@
       </div>
     </div>
     <div
+      id="social-media"
       class="
         p-10
         sm:p-6
@@ -93,7 +99,15 @@
         justify-center
         bg-laranja-dark
       "
-    ></div>
+    >
+<!--      <div class="justify-center smd:flex text-sm md:w-4/5 slg:w-full">
+        <img class="w-80" alt="instagram" src="~assets/icons/instagram.svg" />
+        <img class="w-80" alt="twitter" src="~assets/icons/twitter.svg" />
+        <img class="w-80" alt="youtube" src="~assets/icons/youtube.svg" />
+        <img class="h-80" alt="soundcloud" src="~assets/icons/soundcloud.svg" />
+      </div>
+      -->
+    </div>
     <div
       class="
         p-10

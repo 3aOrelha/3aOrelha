@@ -11,17 +11,17 @@
   // darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
-      xsm: '320px',
-      sm: '640px',
-      smd: '704px',
-      md: '768px',
-      lmd: '896px',
-      slg: '960px',
-      lg: '1024px',
-      sxl: '1152px',
-      xl: '1280px',
-      lxl: '1408px',
-      xxl: '1536px',
+      xsm: "320px",
+      sm: "640px",
+      smd: "704px",
+      md: "768px",
+      lmd: "896px",
+      slg: "960px",
+      lg: "1024px",
+      sxl: "1152px",
+      xl: "1280px",
+      lxl: "1408px",
+      xxl: "1536px",
     },
     extend: {
       fontFamily: {
@@ -30,7 +30,7 @@
         bitter: ["Bitter"],
       },
       width: {
-        '4/5': '80%',
+        "4/5": "80%",
       },
       maxWidth: {
         "1/4": "25%",
@@ -41,9 +41,9 @@
       height: {
         "p-2xl": "42%",
         "5/6": "83.3333333%",
-        '2/5': "40%",
-        '76': '19rem',
-        '92': '22rem',
+        "2/5": "40%",
+        76: "19rem",
+        92: "22rem",
       },
       minHeight: {
         0: "0",
@@ -63,7 +63,7 @@
         full: "100%",
       },
       borderRadius: {
-        'xl': '1.0rem',
+        xl: "1.0rem",
       },
       colors: {
         transparent: "transparent",
@@ -130,6 +130,6 @@
   },
   plugins: [
     require("tailwindcss-dark-mode")(),
-    require('tailwindcss-debug-screens'),
+    require("tailwindcss-debug-screens"),
   ],
 }

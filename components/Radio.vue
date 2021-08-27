@@ -3,7 +3,7 @@
   <iframe
     id="radio"
     :src="src"
-    class=" flex items-start w-full 2xl:h-2/5 b-0 m-0 text-xl"
+    class="flex items-start w-full 2xl:h-2/5 b-0 m-0 text-xl"
     name="my-frame"
     @load="onLoad"
   ></iframe>
