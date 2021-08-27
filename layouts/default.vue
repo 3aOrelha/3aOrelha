@@ -7,11 +7,11 @@
       p-0
       bg-gray-200
       dark:bg-verde-preto dark:text-gray-200
-      flex-col
-      justify-center
     "
   >
-    <!--    <TheHeader /> -->
+    <!--
+      debug-screens
+     <TheHeader /> -->
     <Nuxt keep-alive />
   </div>
 </template>

@@ -10,24 +10,40 @@
   ],
   // darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      xsm: '320px',
+      sm: '640px',
+      smd: '704px',
+      md: '768px',
+      lmd: '896px',
+      slg: '960px',
+      lg: '1024px',
+      sxl: '1152px',
+      xl: '1280px',
+      lxl: '1408px',
+      xxl: '1536px',
+    },
     extend: {
-      screens: {
-        'xsm': {'min': '280px', 'max': '639px'},
-      },
       fontFamily: {
         montserrat: ["Montserrat"],
         poppins: ["Poppins"],
         bitter: ["Bitter"],
       },
+      width: {
+        '4/5': '80%',
+      },
       maxWidth: {
-        "5/6": "83.3333333%",
+        "1/4": "25%",
+        "1/2": "50%",
         "3/4": "75%",
+        "5/6": "83.3333333%",
       },
       height: {
         "p-2xl": "42%",
         "5/6": "83.3333333%",
         '2/5': "40%",
         '76': '19rem',
+        '92': '22rem',
       },
       minHeight: {
         0: "0",
@@ -112,5 +128,9 @@
     borderColor: ["dark", "dark-focus", "dark-focus-within"],
     textColor: ["dark", "dark-hover", "dark-active"],
   },
-  plugins: [require("tailwindcss-dark-mode")()],
+  plugins: [
+    require("tailwindcss-dark-mode")(),
+    require('tailwindcss-debug-screens'),
+    require('@tailwindcss/typography'),
+  ],
 }

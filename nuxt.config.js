@@ -1,9 +1,11 @@
+import { join } from "path"
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: "server",
   server: {
     port: 8080, // default: 3000
-    host: '0.0.0.0' // default: localhost
+    host: "0.0.0.0", // default: localhost
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -32,7 +34,7 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     // '~/plugins/vue-friendly-iframe.client.js'
-    '~/plugins/vue-iframes',
+    "~/plugins/vue-iframes",
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -49,7 +51,7 @@ export default {
     "@nuxtjs/color-mode",
     "@nuxtjs/tailwindcss",
     // "@nuxtjs/google-fonts",
-/*
+    /*
     [
       "@nuxtjs/fontawesome",
       {
@@ -64,32 +66,36 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/axios',
-    'nuxt-socket-io',
-    'nuxt-webfontloader',
+    "@nuxtjs/axios",
+    "nuxt-socket-io",
+    "nuxt-webfontloader",
     // https://go.nuxtjs.dev/content
     // "@nuxt/content",
   ],
   webfontloader: {
     google: {
-      families: ['Montserrat:300,400,500,600,800', 'Bitter:700', 'Poppins:400']
-    }
+      families: [
+        "Montserrat:300,400,500,600,800,900",
+        "Bitter:700",
+        "Poppins:400",
+      ],
+    },
   },
   io: {
     allowEIO3: true,
     sockets: [
       {
-        name: 'orelha',
-        url: 'https://orelha.xyz/api/nowplaying/3a_orelha',
+        name: "orelha",
+        url: "https://orelha.xyz/api/nowplaying/3a_orelha",
         // default: true,
         vuex: {},
-        namespaces: {}
+        namespaces: {},
       },
     ],
     cors: {
-      origin: "http://localhost:3000",
-      methods: ["GET", "POST"]
-    }
+      origin: "http://localhost:8080",
+      methods: ["GET", "POST"],
+    },
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
@@ -98,6 +104,25 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   // <audio src="@/assets/water.mp3" controls></audio>
   build: {
+    postcss: {
+      // Add plugin names as key and arguments as value
+      // Install them before as dependencies with npm or yarn
+      plugins: {
+        // Disable a plugin by passing false as value
+        // 'postcss-url': false,
+        // 'postcss-responsive-type': {},
+        // 'postcss-hexrgba': {}
+
+        // tailwindcss: join(__dirname, "tailwind.config.js"),
+        // "cq-prolyfill": { grid: true },
+      },
+      preset: {
+        // Change the postcss-preset-env settings
+        autoprefixer: {
+          grid: true,
+        },
+      },
+    },
     html: {
       minify: {
         collapseBooleanAttributes: true,
@@ -141,7 +166,7 @@ export default {
     interval: 2000,
   },
 
-/*
+  /*
   fontawesome: {
     icons: {
       solid: [

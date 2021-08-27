@@ -1,56 +1,55 @@
 <template>
-  <div class="font-montserrat sm:max-w-5/6 md:max-w-3/4">
+  <div class="font-montserrat flex-col">
     <!--
     -->
     <div
       id="etiqueta"
       class="
-        flex
+        hidden
+        smd:flex
         xsm:mb-1
         sm:mb-2
         tracking-widest
         xsm:text-sm
-        sm:text-base
+        slg:text-base
         xsm:justify-center
+        lg:justify-start
+        items-center
+        lg:items-start
       "
     >
-      <span class="xsm:m-0 sm:ml-6 lg:ml-20 text-white font-medium"
+      <span class="lg:ml-4 text-white font-medium"
         >RADIOGALERIA</span
       >
       <pre class="font-montserrat font-extrabold text-gray-300"> AO VIVO</pre>
     </div>
 
-    <div id="radio-card" class="lg:flex">
-      <div
+    <div id="radio-card" class="slg:flex w-full slg:max-w-full">
+      <img
+        :src="nowPlaying.now_playing.song.art"
+        alt="Album cover"
         class="
-          bg-cover
-          overflow-hidden
-          xsm:h-44
-          sm:h-80
-          md:h-64 md:max-w-7xl
-          lg:h-auto lg:w-48 lg:w-80
+          smd:max-h-32 smd:w-full
+          slg:max-h-96 slg:h-auto slg:w-40 lg:w-48
+          object-cover
           flex-none
-          bg-cover
           shadow-md
           rounded-t-xl
-          lg:rounded-tr-none lg:rounded-l-xl
+          slg:rounded-tr-none slg:rounded-l-xl
         "
-      >
-        <img :src="nowPlaying.now_playing.song.art" alt="Album cover" />
-      </div>
+      />
 
       <div
         class="
           bg-verde-preto
-          xsm:p-4
-          xsm:h-64
+          xsm:p-4 xsm:h-64
           sm:p-6
-          md:h-80
+          smd:h-80
           rounded-b-xl
           md:max-w-7xl
-          lg:rounded-l-none lg:p-4 lg:h-80
+          slg:rounded-l-none slg:p-4 slg:h-auto
           overflow-hidden
-          lg:rounded-r-xl
+          slg:rounded-r-xl
           shadow-md
         "
       >
@@ -61,24 +60,26 @@
           class="
             mb-2
             tracking-widest
-            xsm:text-xs
-            sm:text-base
             font-montserrat
             p-1
+            font-extrabold
+            text-gray-300
+            xsm:mb-2
+            sm:mb-0
+            text-sm
+            xsm:text-xs
+            lxl:text-base
           "
         >
-          <span class="font-extrabold text-gray-300 xsm:mb-2 sm:mb-0"> PROGRAMA</span>
+          <span> PROGRAMA</span>
           <h1
             class="
               font-bitter font-bold
-              xsm:text-2xl
-              xsm:leading-none
-              xsm:mb-0
-              sm:mb-2
-              sm:leading-tight
-              sm:text-3xl
-              md:text-4xl
-              xl:text-5xl
+              xsm:text-2xl xsm:leading-none xsm:mb-0
+              sm:mb-2 sm:leading-tight sm:text-3xl
+              slg:text-2xl
+              xl:text-4xl
+              lxl:text-5xl
               text-offwhite
             "
           >
@@ -88,12 +89,11 @@
         <h2
           class="
             font-montserrat font-normal
-            xsm:text-xl
-            sm:text-2xl text-amarelo-dark
-            xl:text-3xl
-            xsm:mb-0
-            xsm:mb-2
+            text-amarelo-dark
             dark:text-amarelo-dark
+            xsm:text-xl
+            xl:text-2xl
+            xsm:mb-0 xsm:mb-2
           "
         >
           {{ nowPlaying.now_playing.song.artist }}
@@ -105,8 +105,8 @@
           <h3
             class="
               font-montserrat font-bold
-              xsm:text-lg
-              sm:text-xl text-amarelo-dark
+              text-amarelo-dark
+              xsm:text-base
               xl:text-xl
               xsm:mb-0
               sm:mb-2
@@ -118,7 +118,13 @@
         </div>
         <h4
           v-if="nowPlaying.now_playing.song.custom_fields.comment"
-          class="font-montserrat font-medium text-md dark:text-gray-100 mb-2"
+          class="
+            font-montserrat font-medium
+            text-base
+            slg:text-md
+            dark:text-gray-100
+            mb-2
+          "
         >
           {{ nowPlaying.now_playing.song.custom_fields.comment }}
         </h4>
