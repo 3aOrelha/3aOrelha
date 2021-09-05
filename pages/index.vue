@@ -68,8 +68,7 @@
               slg:w-4/5
             "
           >
-            Além de uma web-rádio um espaço para investigação e escuta atentas.
-            Vozes, gestos e corpos de povos de todas as espécies.
+            Escuta além da Escuta. Uma experiência sonora dos espaços e dos povos de todas as espécies.
           </p>
           <!--          <pre class="mt-3 bg-verde-preto text-gray-300 text-xs">["ruídos","gritos"].choose+["urgentes","tênues"].choose</pre>-->
         </div>
