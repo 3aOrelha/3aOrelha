@@ -17,6 +17,11 @@ export default {
       { hid: "description", name: "description", content: "" },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    script: [{
+      type: 'text/javascript',
+      // src: '~/assets/js/getLogarithmicVolume.js',
+      body: true
+    }]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -32,7 +37,8 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     // '~/plugins/vue-friendly-iframe.client.js'
-    "~/plugins/vue-iframes",
+    // "~/plugins/vue-iframes",
+    "~/plugins/getLogarithmicVolume.js"
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -67,6 +73,13 @@ export default {
     "@nuxtjs/axios",
     "nuxt-socket-io",
     "nuxt-webfontloader",
+    ['nuxt-gettext', {
+      defaultLanguage: 'en',
+      availableLanguages: {
+        // 'en-US': 'English',
+        // 'pt-BR': 'Portuguese',
+      }
+    }],
     // https://go.nuxtjs.dev/content
     // "@nuxt/content",
   ],
@@ -120,6 +133,7 @@ export default {
         // 'postcss-hexrgba': {}
         // tailwindcss: join(__dirname, "tailwind.config.js"),
         // "cq-prolyfill": { grid: true },
+        "~/plugins/getLogarithmicVolume.js": {},
       },
       preset: {
         // Change the postcss-preset-env settings

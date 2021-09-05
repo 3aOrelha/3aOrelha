@@ -1,0 +1,6 @@
+components/Chamada.vue
+components/Colormode.vue
+components/ColorModePicker.vue
+components/iconsutilformatSize.vue
+components/iconsutilslanguage.vue
+components/Logo.vue

@@ -83,7 +83,8 @@
             md:m-0
           "
         >
-          <RadioCard />
+            <Player />
+
         </div>
       </div>
     </div>
@@ -100,13 +101,18 @@
         bg-laranja-dark
       "
     >
-<!--      <div class="justify-center smd:flex text-sm md:w-4/5 slg:w-full">
-        <img class="w-80" alt="instagram" src="~assets/icons/instagram.svg" />
-        <img class="w-80" alt="twitter" src="~assets/icons/twitter.svg" />
-        <img class="w-80" alt="youtube" src="~assets/icons/youtube.svg" />
-        <img class="h-80" alt="soundcloud" src="~assets/icons/soundcloud.svg" />
+      <div class="justify-between smd:flex w-4/5">
+        <img
+          alt="instagram"
+          class="w-48 text-amarelo-dark"
+          src="~assets/icons/instagram.svg"
+        />
+        <img alt="twitter" class="w-56" src="~assets/icons/twitter.svg" />
+        <img alt="youtube" class="w-56" src="~assets/icons/youtube.svg" />
+        <img alt="soundcloud" class="h-64" src="~assets/icons/soundcloud.svg" />
+        <img alt="soundcloud" class="h-52" src="~assets/icons/spotify.svg" />
+        <img alt="soundcloud" class="h-52" src="~assets/icons/facebook.svg" />
       </div>
-      -->
     </div>
     <div
       class="
@@ -191,7 +197,7 @@ export default {
     }
     onMounted(() => {
       let prevScrollpos = window.pageYOffset
-      window.onscroll = function() {
+      window.onscroll = function () {
         const currentScrollPos = window.pageYOffset
         if (prevScrollpos > currentScrollPos || isVisible.value) {
           document.getElementById("navigation").style.top = "0"

@@ -1,5 +1,7 @@
 <template>
-  <audio ref="audio" v-if="is_playing" :title="title"/>
+  <div>
+    <audio ref="audio" v-if="is_playing" :title="title"/>
+  </div>
 </template>
 
 <script>
