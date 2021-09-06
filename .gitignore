@@ -122,8 +122,8 @@ components/ColorModePicker.vue
 components/iconsutilformatSize.vue
 components/iconsutilslanguage.vue
 components/Logo.vue
-components/Player.vue
-components/AudioPlayer.vue
+components/RadioUi.vue
+components/OldPlayer.vue
 Common/NowPlaying.vue
 #store/radio/.state.js
 

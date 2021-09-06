@@ -38,7 +38,7 @@ export default {
   plugins: [
     // '~/plugins/vue-friendly-iframe.client.js'
     // "~/plugins/vue-iframes",
-    "~/plugins/getLogarithmicVolume.js"
+    // "~/plugins/getLogarithmicVolume.js"
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -133,7 +133,7 @@ export default {
         // 'postcss-hexrgba': {}
         // tailwindcss: join(__dirname, "tailwind.config.js"),
         // "cq-prolyfill": { grid: true },
-        "~/plugins/getLogarithmicVolume.js": {},
+        // "~/plugins/getLogarithmicVolume.js": {},
       },
       preset: {
         // Change the postcss-preset-env settings

@@ -83,8 +83,7 @@
             md:m-0
           "
         >
-            <Player />
-
+          <radio-ui />
         </div>
       </div>
     </div>
@@ -197,7 +196,7 @@ export default {
     }
     onMounted(() => {
       let prevScrollpos = window.pageYOffset
-      window.onscroll = function () {
+      window.onscroll = function() {
         const currentScrollPos = window.pageYOffset
         if (prevScrollpos > currentScrollPos || isVisible.value) {
           document.getElementById("navigation").style.top = "0"
