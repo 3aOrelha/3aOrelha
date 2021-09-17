@@ -16,7 +16,15 @@ export default {
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: "" },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+/*
+      {
+        rel: 'stylesheet',
+        href: 'https://unpkg.com/vue-plyr/dist/vue-plyr.css',
+      },
+*/
+    ],
     script: [{
       type: 'text/javascript',
       // src: '~/assets/js/getLogarithmicVolume.js',
@@ -26,6 +34,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    // 'vue-plyr/dist/vue-plyr.css',
     // '@/assets/css/main.css'
     // 'vue-float-menu/dist/vue-float-menu.css'
   ],
@@ -36,6 +45,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    // { src: '~/plugins/vue-plyr.js', mode: 'client' }
     // '~/plugins/vue-friendly-iframe.client.js'
     // "~/plugins/vue-iframes",
     // "~/plugins/getLogarithmicVolume.js"
@@ -126,7 +136,9 @@ export default {
     postcss: {
       // Add plugin names as key and arguments as value
       // Install them before as dependencies with npm or yarn
-      plugins: {
+      plugins: [
+        // { src: '~/plugins/vue-plyr.js', mode: 'client' }
+        // { src: '~/plugins/vue-plyr' }
         // Disable a plugin by passing false as value
         // 'postcss-url': false,
         // 'postcss-responsive-type': {},
@@ -134,7 +146,7 @@ export default {
         // tailwindcss: join(__dirname, "tailwind.config.js"),
         // "cq-prolyfill": { grid: true },
         // "~/plugins/getLogarithmicVolume.js": {},
-      },
+      ],
       preset: {
         // Change the postcss-preset-env settings
         autoprefixer: {

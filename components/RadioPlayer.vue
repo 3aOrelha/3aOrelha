@@ -2,13 +2,11 @@
   <audio
     ref="audio"
     v-if="is_playing"
-    src="https://orelha.xyz:8000/radio.mp3" class="dark" v-bind:="title" />
+    src="https://orelha.xyz:8000/radio.mp3" />
 </template>
 
 <script>
-
 import { mapState } from "vuex"
-
 export default {
   name: "RadioPlayer",
   data() {
@@ -33,15 +31,16 @@ export default {
         this.stop()
       })
     }
-
-      // this.volume = this.$store.commit("radio/SET_VOLUME", this.volume)
+    // this.volume = this.$store.commit("radio/SET_VOLUME", this.volume)
     // Check the query string if browser supports easy query string access.
+/*
     if (typeof URLSearchParams !== "undefined") {
       let urlParams = new URLSearchParams(window.location.search)
       if (urlParams.has("volume")) {
         this.$store.commit("radio/SET_VOLUME", parseInt(urlParams.get("volume")))
       }
     }
+*/
 
 /*
     this.$nuxt.$on("player_toggle", (url) => {
