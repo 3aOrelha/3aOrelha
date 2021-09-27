@@ -68,7 +68,7 @@
               slg:w-4/5
             "
           >
-            Escuta além da Escuta<br>Uma experiência sonora dos espaços e dos povos de todas as espécies
+            Uma experiência sonora dos espaços e dos povos de todas as espécies
           </p>
           <!--          <pre class="mt-3 bg-verde-preto text-gray-300 text-xs">["ruídos","gritos"].choose+["urgentes","tênues"].choose</pre>-->
         </div>
