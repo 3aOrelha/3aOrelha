@@ -47,7 +47,7 @@
               slg:w-4/5 slg:ml-6
             "
           >
-            ESCUTA ALÉM DA ESCUTA.
+            ESCUTA ALÉM DA ESCUTA
           </h1>
           <p
             class="
