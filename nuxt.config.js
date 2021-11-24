@@ -1,5 +1,45 @@
-export default {
+import { defineNuxtConfig } from '@nuxt/bridge'
+
+export default defineNuxtConfig({
   // Target: https://go.nuxtjs.dev/config-target
+  // bridge: false,
+  bridge: {
+
+    // -- Opt-in features --
+
+    // Use Vite as the bundler instead of Webpack 4
+    vite: true,
+
+    // Enable Nuxt 3 compatible useMeta
+    // meta: true,
+
+    // -- Default features --
+
+    // Use legacy server instead of Nitro
+    // nitro: false,
+
+    // Disable nuxt 3 compatible `nuxtApp` interface
+    // app: false,
+
+    // Disable composition API support
+    // capi: false,
+
+    // Do not transpile modules
+    // transpile: false,
+
+    // Disable <script setup> support
+    // scriptSetup: false,
+
+    // Disable composables auto importing
+    // autoImports: false,
+
+    // Do not warn about module incompatibilities
+    // constraints: false
+  },
+
+  vite: {
+    // Config for Vite
+  },
   target: "server",
   server: {
     port: 8080, // default: 3000
@@ -57,14 +97,14 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    "@nuxtjs/composition-api/module",
+    // "@nuxtjs/composition-api/module",
     // https://go.nuxtjs.dev/stylelint
     "@nuxtjs/eslint-module",
     // https://go.nuxtjs.dev/tailwindcss
     "@nuxtjs/stylelint-module",
-    "@nuxtjs/color-mode",
+    // "@nuxtjs/color-mode",
     "@nuxtjs/tailwindcss",
-    "@nuxtjs/svg",
+    // "@nuxtjs/svg",
     // "@nuxtjs/google-fonts",
     /*
     [
@@ -80,16 +120,16 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    "@nuxtjs/axios",
-    "nuxt-socket-io",
+    // "@nuxtjs/axios",
+    // "nuxt-socket-io",
     "nuxt-webfontloader",
-    ['nuxt-gettext', {
-      defaultLanguage: 'en',
-      availableLanguages: {
-        // 'en-US': 'English',
-        // 'pt-BR': 'Portuguese',
-      }
-    }],
+    // ['nuxt-gettext', {
+    //   defaultLanguage: 'en',
+    //   availableLanguages: {
+    //     // 'en-US': 'English',
+    //     // 'pt-BR': 'Portuguese',
+    //   }
+    // }],
     // https://go.nuxtjs.dev/content
     // "@nuxt/content",
   ],
@@ -118,14 +158,14 @@ export default {
       methods: ["GET", "POST"],
     },
   },
-  svg: {
-    vueSvgLoader: {
-      // vue-svg-loader options
-    },
-    svgSpriteLoader: {
-      // svg-sprite-loader options
-    }
-  },
+  // svg: {
+  //   vueSvgLoader: {
+  //     // vue-svg-loader options
+  //   },
+  //   svgSpriteLoader: {
+  //     // svg-sprite-loader options
+  //   }
+  // },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
@@ -227,11 +267,12 @@ export default {
     // jit: true,
     // add '~tailwind.config` alias
     exposeConfig: true,
+    viewer: false,
     // cssPath: "~/assets/css/tailwind.css",
     // configPath: "tailwind.config.js",
     config: {},
   },
-  colorMode: {
-    classSuffix: "",
-  },
-}
+  // colorMode: {
+  //   classSuffix: "",
+  // },
+})
