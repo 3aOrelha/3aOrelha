@@ -10,6 +10,7 @@
   <!--
   <vue-iframe
       :src="src"
+      
       frame-id="my-iframe"
       name="my-frame"
       style="width: 100%; min-height: 150px; border: 0"
@@ -23,7 +24,7 @@ export default {
   data() {
     return {
       MyIframe: null,
-      src: "https://orelha.xyz/public/3a_orelha/embed?theme=light",
+      src: "https://orelha.xyz/public/3a_orelha/embed?theme=light"
     }
   },
   methods: {
@@ -36,8 +37,8 @@ export default {
       const sheetToBeRemoved =
         frame.contentWindow.getElementsByClassName("now-playing-title")
       */
-    },
-  },
+    }
+  }
 }
 </script>
 

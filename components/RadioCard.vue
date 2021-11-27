@@ -133,7 +133,7 @@ export default {
   data() {
     return {
       messageRxd: "",
-      nowPlaying: {},
+      nowPlaying: {}
     }
   },
 
@@ -143,7 +143,7 @@ export default {
     ).then((res) => res.json())
   },
   watch: {
-    "$route.query": "$fetch",
+    "$route.query": "$fetch"
   },
   mounted() {
     const sub = new NchanSubscriber(
@@ -153,6 +153,6 @@ export default {
       this.nowPlaying = JSON.parse(message)
     })
     sub.start()
-  },
+  }
 }
 </script>

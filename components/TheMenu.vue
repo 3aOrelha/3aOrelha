@@ -32,6 +32,7 @@
           <div class="hidden md:block">
             <div class="ml-4 flex items-center md:ml-6">
               <button
+                v-scroll-to="{el: '#info'}"
                 class="
                   flex flex-center
                   align-center
@@ -61,13 +62,13 @@
                     stroke-width="2"
                   />
                 </svg>
-                <a
+                <span
                   class="px-3 py-2 text-sm font-medium tracking-widest"
-                  href="#"
-                  >INFO</a
+                >INFO</span
                 >
               </button>
               <button
+                v-scroll-to="{el: '#contato'}"
                 class="
                   flex flex-center
                   align-center
@@ -97,10 +98,10 @@
                     stroke-width="2"
                   />
                 </svg>
-                <a
+                <span
                   class="px-3 py-2 text-sm font-medium tracking-widest"
                   href="#"
-                  >CONTATO</a
+                >CONTATO</span
                 >
               </button>
               <button
@@ -318,7 +319,8 @@
       </div>
       <div :class="[isOpen ? '' : 'hidden', 'md:hidden']">
         <div class="px-2 pt-2 pb-3 sm:px-3">
-          <a
+          <span
+            v-scroll-to="{el: '#info'}"
             class="
               block
               px-3
@@ -334,10 +336,10 @@
               hover:text-white hover:bg-cinza-light
               focus:outline-none focus:text-white focus:bg-verde-preto
             "
-            href="#"
-            >INFO</a
+          >INFO</span
           >
-          <a
+          <span
+              v-scroll-to="{el: '#contato'}"
             class="
               mt-1
               block
@@ -353,8 +355,7 @@
               hover:text-white hover:bg-cinza-light
               focus:outline-none focus:text-white focus:bg-verde-preto
             "
-            href="#"
-            >CONTATO</a
+          >CONTATO</span
           >
         </div>
         <!--          <div class="pt-4 pb-3 border-t border-gray-700">
@@ -446,13 +447,13 @@
 export default {
   data() {
     return {
-      isOpen: false,
+      isOpen: false
     }
   },
   methods: {
     toggle() {
       this.isOpen = !this.isOpen
-    },
-  },
+    }
+  }
 }
 </script>
