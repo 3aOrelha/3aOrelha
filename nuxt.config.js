@@ -1,41 +1,30 @@
-import { defineNuxtConfig } from '@nuxt/bridge'
+// import { defineNuxtConfig } from '@nuxt/bridge'
 
-export default defineNuxtConfig({
+export default {
   // Target: https://go.nuxtjs.dev/config-target
   // bridge: false,
-  bridge: {
-
-    // -- Opt-in features --
-
-    // Use Vite as the bundler instead of Webpack 4
-    vite: true,
-
-    // Enable Nuxt 3 compatible useMeta
-    // meta: true,
-
-    // -- Default features --
-
-    // Use legacy server instead of Nitro
-    // nitro: false,
-
-    // Disable nuxt 3 compatible `nuxtApp` interface
-    // app: false,
-
-    // Disable composition API support
-    // capi: false,
-
-    // Do not transpile modules
-    // transpile: false,
-
-    // Disable <script setup> support
-    // scriptSetup: false,
-
-    // Disable composables auto importing
-    // autoImports: false,
-
-    // Do not warn about module incompatibilities
-    // constraints: false
-  },
+  // bridge: {
+  //   // -- Opt-in features --
+  //   // Use Vite as the bundler instead of Webpack 4
+  //   vite: true,
+  //   // Enable Nuxt 3 compatible useMeta
+  //   // meta: true,
+  //   // -- Default features --
+  //   // Use legacy server instead of Nitro
+  //   // nitro: false,
+  //   // Disable nuxt 3 compatible `nuxtApp` interface
+  //   // app: false,
+  //   // Disable composition API support
+  //   // capi: false,
+  //   // Do not transpile modules
+  //   // transpile: false,
+  //   // Disable <script setup> support
+  //   // scriptSetup: false,
+  //   // Disable composables auto importing
+  //   // autoImports: false,
+  //   // Do not warn about module incompatibilities
+  //   // constraints: false
+  // },
 
   vite: {
     // Config for Vite
@@ -43,30 +32,30 @@ export default defineNuxtConfig({
   target: "server",
   server: {
     port: 8080, // default: 3000
-    host: "0.0.0.0", // default: localhost
+    host: "0.0.0.0" // default: localhost
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "3aOrelha",
     htmlAttrs: {
-      lang: "pt-br",
+      lang: "pt-br"
     },
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" },
+      { hid: "description", name: "description", content: "" }
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-/*
-      {
-        rel: 'stylesheet',
-        href: 'https://unpkg.com/vue-plyr/dist/vue-plyr.css',
-      },
-*/
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }
+      /*
+            {
+              rel: 'stylesheet',
+              href: 'https://unpkg.com/vue-plyr/dist/vue-plyr.css',
+            },
+      */
     ],
     script: [{
-      type: 'text/javascript',
+      type: "text/javascript",
       // src: '~/assets/js/getLogarithmicVolume.js',
       body: true
     }]
@@ -80,7 +69,7 @@ export default defineNuxtConfig({
   ],
 
   purgeCSS: {
-    whiteList: ["dark-mode"],
+    whiteList: ["dark-mode"]
   },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -97,13 +86,14 @@ export default defineNuxtConfig({
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    // "@nuxtjs/composition-api/module",
+    "@nuxtjs/composition-api/module",
     // https://go.nuxtjs.dev/stylelint
     "@nuxtjs/eslint-module",
     // https://go.nuxtjs.dev/tailwindcss
     "@nuxtjs/stylelint-module",
     // "@nuxtjs/color-mode",
     "@nuxtjs/tailwindcss",
+    // 'nuxt-vite'
     // "@nuxtjs/svg",
     // "@nuxtjs/google-fonts",
     /*
@@ -115,7 +105,7 @@ export default defineNuxtConfig({
       },
     ],
 */
-    // "nuxt-vite"
+    "nuxt-vite"
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -132,15 +122,16 @@ export default defineNuxtConfig({
     // }],
     // https://go.nuxtjs.dev/content
     // "@nuxt/content",
+    'vue-scrollto/nuxt',
   ],
   webfontloader: {
     google: {
       families: [
         "Montserrat:300,400,500,600,800,900",
         "Bitter:700",
-        "Poppins:400",
-      ],
-    },
+        "Poppins:400"
+      ]
+    }
   },
   io: {
     allowEIO3: true,
@@ -150,13 +141,13 @@ export default defineNuxtConfig({
         url: "https://orelha.xyz/api/nowplaying/3a_orelha",
         // default: true,
         vuex: {},
-        namespaces: {},
-      },
+        namespaces: {}
+      }
     ],
     cors: {
       origin: "http://localhost:8080",
-      methods: ["GET", "POST"],
-    },
+      methods: ["GET", "POST"]
+    }
   },
   // svg: {
   //   vueSvgLoader: {
@@ -190,9 +181,9 @@ export default defineNuxtConfig({
       preset: {
         // Change the postcss-preset-env settings
         autoprefixer: {
-          grid: true,
-        },
-      },
+          grid: true
+        }
+      }
     },
     html: {
       minify: {
@@ -206,35 +197,35 @@ export default defineNuxtConfig({
         // but we have to include all as they aren't merged
         removeRedundantAttributes: false,
         trimCustomFragments: true,
-        useShortDoctype: true,
-      },
+        useShortDoctype: true
+      }
     },
     loaders: {
       vue: {
         transformAssetUrls: {
-          audio: "src",
-        },
-      },
+          audio: "src"
+        }
+      }
     },
     extend(config, ctx) {
       config.module.rules.push({
         test: /\.(ogg|mp3|wav|mpe?g)$/i,
         loader: "file-loader",
         options: {
-          name: "[path][name].[ext]",
-        },
+          name: "[path][name].[ext]"
+        }
       })
-    },
+    }
   },
   loading: {
     color: "orange",
-    height: "5px",
+    height: "5px"
   },
 
   // Nuxt Composition API Workaround as for May 27th
   generate: {
     // choose to suit your project
-    interval: 2000,
+    interval: 2000
   },
 
   /*
@@ -264,15 +255,55 @@ export default defineNuxtConfig({
   },
 */
   tailwindcss: {
-    // jit: true,
+    jit: true,
     // add '~tailwind.config` alias
     exposeConfig: true,
-    viewer: false,
+    viewer: true,
     // cssPath: "~/assets/css/tailwind.css",
     // configPath: "tailwind.config.js",
-    config: {},
+    config: {}
   },
   // colorMode: {
   //   classSuffix: "",
   // },
-})
+  router: {
+    scrollBehavior: async function(to, from, savedPosition) {
+      if (savedPosition) {
+        return savedPosition;
+      }
+
+      const findEl = async (hash, x = 0) => {
+        return (
+          document.querySelector(hash) ||
+          new Promise(resolve => {
+            if (x > 50) {
+              return resolve(document.querySelector("#app"));
+            }
+            setTimeout(() => {
+              resolve(findEl(hash, ++x || 1));
+            }, 100);
+          })
+        );
+      };
+
+      // if (to.hash) {
+      //   let el = await findEl(to.hash);
+      //   if ("scrollBehavior" in document.documentElement.style) {
+      //     return window.scrollTo({ top: el.offsetTop, behavior: "smooth" });
+      //   } else {
+      //     return window.scrollTo(0, el.offsetTop);
+      //   }
+      // }
+      if (to.hash) {
+        let el = await findEl(to.hash)
+        if ('scrollBehavior' in document.documentElement.style) {
+          return window.scrollTo({ top: el.getBoundingClientRect().top+window.scrollY, behavior: 'smooth' })
+        } else {
+          return window.scrollTo(0, el.getBoundingClientRect().top+window.scrollY)
+        }
+      }
+
+      return { x: 0, y: 0 };
+    }
+  }
+}

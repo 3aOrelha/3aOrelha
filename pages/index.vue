@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-verde-preto h-screen">
+  <div id="top" class="w-full bg-verde-preto h-screen">
     <!--    class="min-h-screen bg-gray-500"-->
     <nav id="navigation" class="sticky top-0 transition-all duration-500">
       <TheMenu />
@@ -84,59 +84,120 @@
           "
         >
           <radio-ui />
+          >
         </div>
       </div>
     </div>
+<!--    <div-->
+<!--      id="social-media"-->
+<!--      class="-->
+<!--        p-10-->
+<!--        sm:p-6-->
+<!--        min-h-1/2-->
+<!--        2xl:min-h-1/3-->
+<!--        flex-->
+<!--        items-center-->
+<!--        justify-center-->
+<!--        bg-laranja-dark-->
+<!--      "-->
+<!--    >-->
+<!--      <div class="justify-between smd:flex w-4/5">-->
+<!--        <img alt="soundcloud" class="h-8" src="~assets/icons/soundcloud.svg" />-->
+<!--        <img alt="spotify" class="h-8" src="~assets/icons/spotify.svg" />-->
+<!--        <img alt="facebook" class="h-8" src="~assets/icons/facebook.svg" />-->
+<!--      </div>-->
+<!--    </div>-->
     <div
-      id="social-media"
+      id="info"
       class="
-        p-10
-        sm:p-6
+        p-5
+        md:pb-10
+        sm:p-10
         min-h-1/2
         2xl:min-h-1/3
-        flex
+        md:flex
+        flex-wrap
         items-center
-        justify-center
-        bg-laranja-dark
-      "
-    >
-      <div class="justify-between smd:flex w-4/5">
-        <img
-          alt="instagram"
-          class="w-48 text-amarelo-dark"
-          src="~assets/icons/instagram.svg"
-        />
-        <img alt="twitter" class="w-56" src="~assets/icons/twitter.svg" />
-        <img alt="youtube" class="w-56" src="~assets/icons/youtube.svg" />
-        <img alt="soundcloud" class="h-64" src="~assets/icons/soundcloud.svg" />
-        <img alt="soundcloud" class="h-52" src="~assets/icons/spotify.svg" />
-        <img alt="soundcloud" class="h-52" src="~assets/icons/facebook.svg" />
-      </div>
-    </div>
-    <div
-      class="
-        p-10
-        sm:p-6
-        min-h-1/2
-        2xl:min-h-1/3
-        flex
-        items-center
+        flex-none
         justify-center
         bg-vermelho-escuro
       "
-    ></div>
+    >
+      <div id="info-text"
+           class="
+        flex
+        justify-center
+        sm:flex-grow
+      ">
+        <p
+          class="
+        bg-gray-100
+        text-gray-800
+        max-w-xl
+          p-5
+        ">
+          A <b>3a-Orelha</b> é um projeto de web rádio-arte, um repositório de ações artísticas qe uma ferramenta de
+          escuta e amplificação das vozes e reflexões dos corpos, povos, espécies e espaços de um território. Através de
+          uma investigação sensível e atenta, aliada a estratégias de mobilização social, procuramos acessar pessoas que
+          atuam, frequentam e moram em uma localidade, bem como entender o território, sua história e cultura, contando
+          com a participação das pessoas na elaboração de uma programação de rádio que divulga suas vozes para além do
+          território físico em que atuam.<br/><br/>Ao mesmo tempo em que expressa as vozes de uma localidade, a <b>3ª
+          Orelha</b> é uma plataforma que alcança outros espaços e ideias. Além da programação própria, a rádio funciona
+          como um guarda-chuva para programas produzidos por outras iniciativas com conteúdo e propostas afins.
+        </p>
+      </div>
+      <div id="botao-volta" class="
+        self-end text-center pt-5
+      ">
+        <button v-scroll-to="{el:'#top'}" class="w-10 h-10 str border-4 border-gr text-gray-200
+        rounded-full"
+        >
+          <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path clipRule="evenodd"
+                  d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
+                  fillRule="evenodd" />
+          </svg>
+        </button>
+      </div>
+
+    </div>
     <div
+      id="contato"
       class="
-        p-10
-        sm:p-6
+        p-5
+        md:pb-10
+        sm:p-10
         min-h-1/2
         2xl:min-h-1/3
-        flex
+        md:flex
+        flex-wrap
         items-center
+        flex-none
         justify-center
-        bg-azul-dark
+        bg-sepia-dark
       "
-    ></div>
+    >
+      <!--      <img alt="instagram" class="w-8" src="~assets/icons/instagram.svg" />-->
+      <div id="contact-form"
+           class=" flex justify-center sm:flex-grow"
+      >
+        <iframe
+          frameborder="0"
+          height="812" marginheight="0" marginwidth="0" src="https://docs.google.com/forms/d/e/1FAIpQLSfHHCF45hhQ0In4x25zjB7CNsFfsEMA35TWr4yt-XLAFiH25A/viewform?embedded=true" width="640">Carregando…
+        </iframe>
+      </div>
+      <div class="self-end text-center pt-5">
+        <button v-scroll-to="{el:'#top'}" class="w-10 h-10 str border-4 border-gr text-gray-200
+        rounded-full"
+        >
+          <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path clipRule="evenodd"
+                  d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
+                  fillRule="evenodd" />
+          </svg>
+        </button>
+      </div>
+    </div>
     <!--    <div>
             <fa :icon="['fas', 'adjust']" />
             &lt;!&ndash;            <fa icon="dollar-sign" style="font-size: 30px" />
@@ -186,7 +247,7 @@
 </template>
 
 <script>
-// import { onMounted, ref } from "@nuxtjs/composition-api"
+import { onMounted, ref } from "@nuxtjs/composition-api"
 // import { onMounted, ref } from '#app'
 
 export default {
@@ -197,7 +258,7 @@ export default {
     }
     onMounted(() => {
       let prevScrollpos = window.pageYOffset
-      window.onscroll = function () {
+      window.onscroll = function() {
         const currentScrollPos = window.pageYOffset
         if (prevScrollpos > currentScrollPos || isVisible.value) {
           document.getElementById("navigation").style.top = "0"
@@ -210,9 +271,9 @@ export default {
     })
     return {
       isVisible,
-      toggleVisibility,
+      toggleVisibility
     }
-  },
+  }
 }
 /*
 data() {
@@ -297,8 +358,6 @@ methods: {
 
 .span1 {
   color: var(--cinza-verde);
-  //font-size: var(--font-size-m);
-  font-weight: 500;
 }
 
 .radio-card {
@@ -311,8 +370,6 @@ methods: {
 }
 
 .frame-21 {
-  //background-image: url("~/assets/fotos/20210331_124514.jpg");
-  background-position: 50% 50%;
   background-size: cover;
   height: 272px;
   margin-top: 0;
