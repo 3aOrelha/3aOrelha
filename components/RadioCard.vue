@@ -21,9 +21,9 @@
       <pre class="font-montserrat font-extrabold text-gray-300"> AO VIVO</pre>
     </div>
 
+    <!--      :style="{ backgroundImage: `url(${nowPlaying.now_playing.song.art})` }"-->
     <div
       id="radio-card"
-      :style="{ backgroundImage: `url(${nowPlaying.now_playing.song.art})` }"
       class="
         bg-verde-preto bg-center
         w-full
@@ -69,7 +69,7 @@
             text-offwhite
           "
         >
-          {{ nowPlaying.now_playing.playlist }}
+          <!--          {{ nowPlaying.now_playing.playlist }}-->
         </h1>
       </div>
       <h2
@@ -82,12 +82,12 @@
           xsm:mb-0 xsm:mb-2
         "
       >
-        {{ nowPlaying.now_playing.song.artist }}
+        <!--        {{ nowPlaying.now_playing.song.artist }} -->
       </h2>
       <div class="flex flex-row">
-        <span v-if="nowPlaying.now_playing.song.album">
-          {{ nowPlaying.now_playing.song.album }} -
-        </span>
+        <!--        <span v-if="nowPlaying.now_playing.song.album">-->
+        <!--          {{ nowPlaying.now_playing.song.album }} - -->
+        <!--        </span>-->
         <h3
           class="
             font-montserrat font-bold
@@ -99,11 +99,11 @@
             dark:text-amarelo-dark
           "
         >
-          {{ nowPlaying.now_playing.song.title }}
+          <!--          {{ nowPlaying.now_playing.song.title }}-->
         </h3>
       </div>
+      <!--        v-if="nowPlaying.now_playing.song.custom_fields.comment"-->
       <h4
-        v-if="nowPlaying.now_playing.song.custom_fields.comment"
         class="
           font-montserrat font-medium
           text-base
@@ -112,7 +112,7 @@
           mb-2
         "
       >
-        {{ nowPlaying.now_playing.song.custom_fields.comment }}
+        <!--        {{ nowPlaying.now_playing.song.custom_fields.comment }}-->
       </h4>
       <div>
         <Radio />
@@ -156,3 +156,6 @@ export default {
   }
 }
 </script>
+<style>
+/* stylelint-disable */
+</style>

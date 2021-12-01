@@ -45,7 +45,7 @@ export default {
     // https://go.nuxtjs.dev/stylelint
     "@nuxtjs/eslint-module",
     // https://go.nuxtjs.dev/tailwindcss
-    "@nuxtjs/stylelint-module",
+    // "@nuxtjs/stylelint-module",
     "@nuxtjs/color-mode",
     "@nuxtjs/tailwindcss",
     "@nuxtjs/svg",
