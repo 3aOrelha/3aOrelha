@@ -24,9 +24,10 @@ export default {
   data() {
     return {
       MyIframe: null,
-      src: "https://orelha.xyz/public/3a_orelha/embed?theme=light"
+      src: "https://orelha.xyz/public/radio_3a_orelha/embed?theme=dark"
     }
   },
+
   methods: {
     onLoad(frame) {
       this.myIframe = frame.contentWindow
