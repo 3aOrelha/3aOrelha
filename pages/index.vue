@@ -115,8 +115,8 @@
         max-w-xl
           p-5
         ">
-          A <b>3a-Orelha</b> é um projeto de web rádio-arte, um repositório de ações artísticas qe uma ferramenta de
-          escuta e amplificação das vozes e reflexões dos corpos, povos, espécies e espaços de um território. Através de
+          A <b>3a-Orelha</b> é um projeto de web rádio-arte, um repositório de ações artísticas e uma ferramenta de
+          escuta e amplificação das vozes e reflexões dos corpos, povos, espécies e espaços de territórios. Através de
           uma investigação sensível e atenta, aliada a estratégias de mobilização social, procuramos acessar pessoas que
           atuam, frequentam e moram em uma localidade, bem como entender o território, sua história e cultura, contando
           com a participação das pessoas na elaboração de uma programação de rádio que divulga suas vozes para além do
