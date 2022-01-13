@@ -10,7 +10,7 @@
         xsm:py-4
         sm:py-6
         smd:py-16 smd:flex
-        min-h-1/2
+        min-h-full
         bg-azul-dark
         slg:flex-col
         justify-center
@@ -110,9 +110,8 @@
       ">
         <p
           class="
-        bg-gray-100
-        text-gray-800
-        max-w-xl
+        text-gray-900
+        text-xl
           p-5
         ">
           A <b>3a-Orelha</b> é um projeto de web rádio-arte, um repositório de ações artísticas e uma ferramenta de
