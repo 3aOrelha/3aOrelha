@@ -114,14 +114,10 @@
         text-xl
           p-5
         ">
-          A <b>3a-Orelha</b> é um projeto de web rádio-arte, um repositório de ações artísticas e uma ferramenta de
-          escuta e amplificação das vozes e reflexões dos corpos, povos, espécies e espaços de territórios. Através de
-          uma investigação sensível e atenta, aliada a estratégias de mobilização social, procuramos acessar pessoas que
-          atuam, frequentam e moram em uma localidade, bem como entender o território, sua história e cultura, contando
-          com a participação das pessoas na elaboração de uma programação de rádio que divulga suas vozes para além do
-          território físico em que atuam.<br/><br/>Ao mesmo tempo em que expressa as vozes de uma localidade, a <b>3ª
-          Orelha</b> é uma plataforma que alcança outros espaços e ideias. Além da programação própria, a rádio funciona
-          como um guarda-chuva para programas produzidos por outras iniciativas com conteúdo e propostas afins.
+          A <b>3a-Orelha</b> é uma iniciativa de um pequeno grupo de artistas e produtores em São Paulo com a ajuda de
+          uma longa lista de pessoas amigas. É um híbrido de web-rádio-arte, rádio-ação-performance, um repositório de
+          ações artísticas e uma ferramenta de escuta e amplificação das vozes e reflexões dos corpos, povos, espécies
+          e espaços de territórios reais ou imaginados.
         </p>
       </div>
       <div id="botao-volta" class="
@@ -153,7 +149,13 @@
         bg-vermelho-escuro
       "
     >
-          <div id="contact-form"
+      <p class="text-gray-200 text-xl p-5 ">
+        Se você gravou alguma música, som ou fala interessante, se você se deparou com uma ação, tema, local, gente ou banda que acha que deveria ser tocada aqui - entre em contato!
+        Se quiser criar uma parceria ou se criou uma obra de web-arte, radio-arte, arte gerativa ou qualquer entre isso - entre em contato!
+        Ficaremos felizes em conversar com você e teremos prazer em receber pedidos, envios de músicas, dicas, sugestões, ideias e etc.
+      </p>
+
+      <div id="contact-form"
            class=" flex justify-center sm:flex-grow"
       >
         <iframe
@@ -171,6 +173,9 @@
                   fillRule="evenodd" />
           </svg>
         </button>
+        <div>
+
+        </div>
       </div>
 
     </div>
