@@ -237,7 +237,7 @@ methods: {
 },
 async asyncData({ $axios }) {
   const station = await $axios.$get(
-    "https://orelha.xyz/api/nowplaying/3a_orelha"
+    "https://orelha.space/api/nowplaying/3a_orelha"
   )
   console.log(station)
   return { station }
