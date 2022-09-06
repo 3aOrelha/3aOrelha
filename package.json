@@ -27,6 +27,7 @@
     "nchan": "^1.0.10",
     "nuxt": "^2.15.8",
     "nuxt-socket-io": "^1.1.21",
+    "postcss-nesting": "^10.1.10",
     "tailwindcss": "^2.2.7",
     "vue-iframes": "^0.0.16",
     "vue-scrollto": "^2.20.0"

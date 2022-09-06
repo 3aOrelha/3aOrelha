@@ -251,7 +251,7 @@ computed: {
 /*
   async fetch() {
     this.station = await fetch(
-      "https://orelha.xyz/api/nowplaying/3a_orelha"
+      "https://orelha.space/api/nowplaying/3a_orelha"
     ).then((res) => res.json())
   },
 */
@@ -406,7 +406,7 @@ methods: {
 }
 
 .badge {
-  @apply inline-block bg-gray-200 dark:bg-gray-700  rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-200;
+  @apply inline-block bg-gray-200 dark:bg-gray-700  rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-200;}
 
   &:hover {
     @apply bg-gray-300;

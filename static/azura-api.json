@@ -6,11 +6,11 @@
     "description": "Fluxos em uma galeria sonora fractal de paisagens que contem paisagens.",
     "frontend": "icecast",
     "backend": "liquidsoap",
-    "listen_url": "https://orelha.xyz:8000/radio.mp3",
+    "listen_url": "https://orelha.space:8000/radio.mp3",
     "url": "3a-orelha.space",
-    "public_player_url": "https://orelha.xyz/public/3a_orelha",
-    "playlist_pls_url": "https://orelha.xyz/public/3a_orelha/playlist.pls",
-    "playlist_m3u_url": "https://orelha.xyz/public/3a_orelha/playlist.m3u",
+    "public_player_url": "https://orelha.space/public/3a_orelha",
+    "playlist_pls_url": "https://orelha.space/public/3a_orelha/playlist.pls",
+    "playlist_m3u_url": "https://orelha.space/public/3a_orelha/playlist.m3u",
     "is_public": true,
     "mounts": [
       {
@@ -18,7 +18,7 @@
         "is_default": true,
         "id": 1,
         "name": "192kbps MP3",
-        "url": "https://orelha.xyz:8000/radio.mp3",
+        "url": "https://orelha.spcae:8000/radio.mp3",
         "bitrate": 192,
         "format": "mp3",
         "listeners": {
@@ -57,7 +57,7 @@
       "album": "",
       "genre": "",
       "lyrics": "",
-      "art": "https://orelha.xyz/static/img/generic_song.jpg",
+      "art": "https://orelha.space/static/img/generic_song.jpg",
       "custom_fields": []
     }
   },
@@ -74,7 +74,7 @@
       "album": "",
       "genre": "Experimental",
       "lyrics": "",
-      "art": "https://orelha.xyz/api/station/1/art/65ce2dff00897b6048bc095c-1624932189.jpg",
+      "art": "https://orelha.space/api/station/1/art/65ce2dff00897b6048bc095c-1624932189.jpg",
       "custom_fields": []
     }
   },
@@ -94,7 +94,7 @@
         "album": "",
         "genre": "",
         "lyrics": "",
-        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "art": "https://orelha.space/static/img/generic_song.jpg",
         "custom_fields": []
       }
     },
@@ -113,7 +113,7 @@
         "album": "",
         "genre": "",
         "lyrics": "",
-        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "art": "https://orelha.space/static/img/generic_song.jpg",
         "custom_fields": []
       }
     },
@@ -132,7 +132,7 @@
         "album": "",
         "genre": "",
         "lyrics": "",
-        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "art": "https://orelha.space/static/img/generic_song.jpg",
         "custom_fields": []
       }
     },
@@ -151,7 +151,7 @@
         "album": "",
         "genre": "",
         "lyrics": "",
-        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "art": "https://orelha.space/static/img/generic_song.jpg",
         "custom_fields": []
       }
     },
@@ -170,7 +170,7 @@
         "album": "",
         "genre": "",
         "lyrics": "",
-        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "art": "https://orelha.space/static/img/generic_song.jpg",
         "custom_fields": []
       }
     },
@@ -189,7 +189,7 @@
         "album": "",
         "genre": "",
         "lyrics": "",
-        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "art": "https://orelha.space/static/img/generic_song.jpg",
         "custom_fields": []
       }
     },
@@ -208,7 +208,7 @@
         "album": "",
         "genre": "",
         "lyrics": "",
-        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "art": "https://orelha.space/static/img/generic_song.jpg",
         "custom_fields": []
       }
     },
@@ -227,7 +227,7 @@
         "album": "",
         "genre": "",
         "lyrics": "",
-        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "art": "https://orelha.space/static/img/generic_song.jpg",
         "custom_fields": []
       }
     },
@@ -246,7 +246,7 @@
         "album": "",
         "genre": "",
         "lyrics": "",
-        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "art": "https://orelha.space/static/img/generic_song.jpg",
         "custom_fields": []
       }
     },
@@ -265,7 +265,7 @@
         "album": "",
         "genre": "",
         "lyrics": "",
-        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "art": "https://orelha.space/static/img/generic_song.jpg",
         "custom_fields": []
       }
     },
@@ -284,7 +284,7 @@
         "album": "",
         "genre": "",
         "lyrics": "",
-        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "art": "https://orelha.space/static/img/generic_song.jpg",
         "custom_fields": []
       }
     },
@@ -303,7 +303,7 @@
         "album": "",
         "genre": "",
         "lyrics": "",
-        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "art": "https://orelha.space/static/img/generic_song.jpg",
         "custom_fields": []
       }
     },
@@ -322,7 +322,7 @@
         "album": "",
         "genre": "",
         "lyrics": "",
-        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "art": "https://orelha.space/static/img/generic_song.jpg",
         "custom_fields": []
       }
     }
