@@ -86,7 +86,7 @@ export default {
     sockets: [
       {
         name: "orelha",
-        url: "https://orelha.xyz/api/nowplaying/3a_orelha",
+        url: "https://orelha.space/api/nowplaying/3a_orelha",
         // default: true,
         vuex: {},
         namespaces: {},

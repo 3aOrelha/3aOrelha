@@ -25,14 +25,14 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
-    "@nuxtjs/composition-api": "^0.24.7",
-    "core-js": "^3.16.1",
+    "@nuxtjs/composition-api": "^0.33.1",
+    "core-js": "^3.25.0",
     "nchan": "^1.0.10",
     "nuxt": "^2.15.8",
     "nuxt-socket-io": "^1.1.21",
     "postcss-nesting": "^10.1.10",
-    "tailwindcss": "^2.2.7",
-    "vue-iframes": "^0.0.16",
+    "tailwindcss": "^3.1.8",
+    "vue-iframes": "^0.0.20",
     "vue-scrollto": "^2.20.0"
   },
   "devDependencies": {
@@ -54,7 +54,7 @@
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
     "nuxt-webfontloader": "^1.1.0",
-    "postcss": "^8.3.6",
+    "postcss": "^8.4.16",
     "prettier": "^2.3.2",
     "stylelint": "^14.1.0",
     "stylelint-config-prettier": "^8.0.2",

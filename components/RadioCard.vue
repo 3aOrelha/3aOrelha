@@ -139,7 +139,7 @@ export default {
 
   async fetch() {
     this.nowPlaying = await fetch(
-      "https://orelha.xyz/api/nowplaying/3a_orelha"
+      "https://orelha.space/api/nowplaying/3a_orelha"
     ).then((res) => res.json())
   },
   watch: {
@@ -147,7 +147,7 @@ export default {
   },
   mounted() {
     const sub = new NchanSubscriber(
-      "https://orelha.xyz/api/live/nowplaying/3a_orelha"
+      "https://orelha.space/api/live/nowplaying/3a_orelha"
     )
     sub.on("message", (message) => {
       this.nowPlaying = JSON.parse(message)

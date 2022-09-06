@@ -6,11 +6,11 @@
     "description": "Fluxos em uma radio-galeria que contem paisagens que contem paisagens que contém",
     "frontend": "icecast",
     "backend": "liquidsoap",
-    "listen_url": "https://orelha.xyz:8000/radio.mp3",
+    "listen_url": "https://orelha.space:8000/radio.mp3",
     "url": "3a-orelha.space",
-    "public_player_url": "https://orelha.xyz/public/3a_orelha",
-    "playlist_pls_url": "https://orelha.xyz/public/3a_orelha/playlist.pls",
-    "playlist_m3u_url": "https://orelha.xyz/public/3a_orelha/playlist.m3u",
+    "public_player_url": "https://orelha.space/public/3a_orelha",
+    "playlist_pls_url": "https://orelha.space/public/3a_orelha/playlist.pls",
+    "playlist_m3u_url": "https://orelha.space/public/3a_orelha/playlist.m3u",
     "is_public": true,
     "mounts": [
       {
@@ -18,7 +18,7 @@
         "is_default": true,
         "id": 1,
         "name": "192kbps MP3",
-        "url": "https://orelha.xyz:8000/radio.mp3",
+        "url": "https://orelha.space:8000/radio.mp3",
         "bitrate": 192,
         "format": "mp3",
         "listeners": {
@@ -57,7 +57,7 @@
       "album": "",
       "genre": "Experimental",
       "lyrics": "",
-      "art": "https://orelha.xyz/api/station/1/art/65ce2dff00897b6048bc095c-1624932189.jpg",
+      "art": "https://orelha.space/api/station/1/art/65ce2dff00897b6048bc095c-1624932189.jpg",
       "custom_fields": []
     }
   },
@@ -74,7 +74,7 @@
       "album": "",
       "genre": "Experimental",
       "lyrics": "",
-      "art": "https://orelha.xyz/api/station/1/art/08c6bd5a333502739e4b4f98-1624932171.jpg",
+      "art": "https://orelha.space/api/station/1/art/08c6bd5a333502739e4b4f98-1624932171.jpg",
       "custom_fields": []
     }
   },
@@ -94,7 +94,7 @@
         "album": "",
         "genre": "Experimental",
         "lyrics": "",
-        "art": "https://orelha.xyz/api/station/1/art/7b7b8fef60b5204cd688cd67-1624932209.jpg",
+        "art": "https://orelha.space/api/station/1/art/7b7b8fef60b5204cd688cd67-1624932209.jpg",
         "custom_fields": []
       }
     },
@@ -113,7 +113,7 @@
         "album": "",
         "genre": "Experimental",
         "lyrics": "",
-        "art": "https://orelha.xyz/api/station/1/art/745703989ad411727b996fd0-1624931468.jpg",
+        "art": "https://orelha.space/api/station/1/art/745703989ad411727b996fd0-1624931468.jpg",
         "custom_fields": []
       }
     },
@@ -132,7 +132,7 @@
         "album": "",
         "genre": "",
         "lyrics": "",
-        "art": "https://orelha.xyz/static/img/generic_song.jpg",
+        "art": "https://orelha.space/static/img/generic_song.jpg",
         "custom_fields": []
       }
     },
@@ -151,7 +151,7 @@
         "album": "",
         "genre": "Experimental",
         "lyrics": "",
-        "art": "https://orelha.xyz/api/station/1/art/70be14f8aa0f1d37841666a3-1624931467.jpg",
+        "art": "https://orelha.space/api/station/1/art/70be14f8aa0f1d37841666a3-1624931467.jpg",
         "custom_fields": []
       }
     },
@@ -170,7 +170,7 @@
         "album": "",
         "genre": "Experimental",
         "lyrics": "",
-        "art": "https://orelha.xyz/api/station/1/art/19f874322a3ba01d1835b4a1-1624931453.jpg",
+        "art": "https://orelha.space/api/station/1/art/19f874322a3ba01d1835b4a1-1624931453.jpg",
         "custom_fields": []
       }
     },
@@ -189,7 +189,7 @@
         "album": "",
         "genre": "Experimental",
         "lyrics": "",
-        "art": "https://orelha.xyz/api/station/1/art/2485f3d2f8079a3c6f783cc8-1624932212.jpg",
+        "art": "https://orelha.space/api/station/1/art/2485f3d2f8079a3c6f783cc8-1624932212.jpg",
         "custom_fields": []
       }
     },
@@ -208,7 +208,7 @@
         "album": "",
         "genre": "Experimental",
         "lyrics": "",
-        "art": "https://orelha.xyz/api/station/1/art/05b09263e4d956411948fc52-1624931488.jpg",
+        "art": "https://orelha.space/api/station/1/art/05b09263e4d956411948fc52-1624931488.jpg",
         "custom_fields": []
       }
     },
@@ -227,7 +227,7 @@
         "album": "",
         "genre": "Experimental",
         "lyrics": "",
-        "art": "https://orelha.xyz/api/station/1/art/d86f42ca69b51e8ff02d13f2-1624931528.jpg",
+        "art": "https://orelha.space/api/station/1/art/d86f42ca69b51e8ff02d13f2-1624931528.jpg",
         "custom_fields": []
       }
     },
@@ -246,7 +246,7 @@
         "album": "",
         "genre": "Experimental",
         "lyrics": "",
-        "art": "https://orelha.xyz/api/station/1/art/809b95d24c681979e15ce6e7-1624931544.jpg",
+        "art": "https://orelha.space/api/station/1/art/809b95d24c681979e15ce6e7-1624931544.jpg",
         "custom_fields": []
       }
     },
@@ -265,7 +265,7 @@
         "album": "",
         "genre": "Experimental",
         "lyrics": "",
-        "art": "https://orelha.xyz/api/station/1/art/bfc60c094b92acac221df648-1624931574.jpg",
+        "art": "https://orelha.space/api/station/1/art/bfc60c094b92acac221df648-1624931574.jpg",
         "custom_fields": []
       }
     },
@@ -284,7 +284,7 @@
         "album": "",
         "genre": "Experimental",
         "lyrics": "",
-        "art": "https://orelha.xyz/api/station/1/art/4d0292be3b1cc1c559748421-1624931589.jpg",
+        "art": "https://orelha.space/api/station/1/art/4d0292be3b1cc1c559748421-1624931589.jpg",
         "custom_fields": []
       }
     },
@@ -303,7 +303,7 @@
         "album": "",
         "genre": "Experimental",
         "lyrics": "",
-        "art": "https://orelha.xyz/api/station/1/art/bfe43bc183315c77b96bcece-1624931635.jpg",
+        "art": "https://orelha.space/api/station/1/art/bfe43bc183315c77b96bcece-1624931635.jpg",
         "custom_fields": []
       }
     },
@@ -322,7 +322,7 @@
         "album": "",
         "genre": "Experimental",
         "lyrics": "",
-        "art": "https://orelha.xyz/api/station/1/art/14dc257584eb20ddf8ca4a29-1624931699.jpg",
+        "art": "https://orelha.space/api/station/1/art/14dc257584eb20ddf8ca4a29-1624931699.jpg",
         "custom_fields": []
       }
     },
@@ -341,7 +341,7 @@
         "album": "",
         "genre": "Experimental",
         "lyrics": "",
-        "art": "https://orelha.xyz/api/station/1/art/4a3532dea2aff91335e9cd61-1624931790.jpg",
+        "art": "https://orelha.space/api/station/1/art/4a3532dea2aff91335e9cd61-1624931790.jpg",
         "custom_fields": []
       }
     },
@@ -360,7 +360,7 @@
         "album": "",
         "genre": "Experimental",
         "lyrics": "",
-        "art": "https://orelha.xyz/api/station/1/art/a6643201f5478ab75cfd864a-1624931875.jpg",
+        "art": "https://orelha.space/api/station/1/art/a6643201f5478ab75cfd864a-1624931875.jpg",
         "custom_fields": []
       }
     }

@@ -24,7 +24,7 @@ export default {
   data() {
     return {
       MyIframe: null,
-      src: "https://orelha.xyz/public/radio_3a_orelha/embed?theme=dark"
+      src: "https://orelha.space/public/radio_3a_orelha/embed?theme=dark"
     }
   },
 
