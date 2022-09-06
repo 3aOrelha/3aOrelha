@@ -2,6 +2,9 @@
   "name": "terceira-orelha",
   "version": "1.0.0",
   "private": false,
+  "engines": {
+    "node": "16.17"
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
