@@ -28,7 +28,7 @@
     "@nuxtjs/composition-api": "^0.33.1",
     "core-js": "^3.25.0",
     "nchan": "^1.0.10",
-    "nuxt": "^2.15.8",
+    "nuxt": "^3.4.3",
     "nuxt-socket-io": "^1.1.21",
     "postcss-nesting": "^10.1.10",
     "tailwindcss": "^3.1.8",
